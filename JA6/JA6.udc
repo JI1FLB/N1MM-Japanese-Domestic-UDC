@@ -1,0 +1,55 @@
+[Author]
+AuthorName =$Author:Seiichi Tanaka $
+Callsign = JI1FLB
+Email =ji1flb@jarl.com
+[File]
+Revision =$Revision: 1.0$
+LastUpdate =16/11/23
+Description = JA6 Contest)
+[Contest]
+Name =JA6	
+DisplayName = JA6
+CabrilloName = JA6
+Mode =BOTH
+DupeType =2
+Multiplier1Name = Sect
+Multiplier2Name = 
+Multiplier3Name = 
+Period =2 
+PointsPerContact = JA, 1
+ShowMyCountryStations =True
+ShowWarcBands =
+ZoneType =
+MultSqlString = Section
+MultSqlString2 =
+MultSqlString3 =
+MultWindowType =JA6
+IsMultPer = 1
+MultiplierBands =
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints =
+QsoErrorString = Sect
+EntryWindowInfo = SNTText, 400, RCVText, 400, Exchange1Text, 750 
+FrameText = SntNr   RcvNr  Exchange
+LogInfo = SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 
+DefaultContestExchange =10
+
+CabrilloFormat = 1
+GenericPrintString = SNT, 4, SentExchPart1, 6,  CallSign, 15, RCV,  4, Exchange1, 6, Multiplier1, 6, Points, 3
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST Sent  Call            RST Exch Multi Pts
+
+IsWorkable = MyCountryOnly
+SpecialInstructions =
+DupeSqlString =
+StartOfContest = 7, 06
+EndOfContest = 0, 18
+IsMultPer = 1
+MinimumOffTime =
+UsesWAECountries =
+SetSentTimeForContact =
+ScoreSummaryMultNames = JA6
+WebAddress = 
+DigitalModeSqlString =
+MultipleSessions =
+ResetMultsEverySession =   

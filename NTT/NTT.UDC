@@ -1,0 +1,58 @@
+[Author]
+AuthorName = SEIICHI TANAKA
+Callsign= JI1FLB
+Email= ji1flb@jarl.com
+[File]
+Revision = 1.1.0
+LastUpdate =2017/10/23 15:24:26
+Description = NTT Contest
+[Contest]
+Name = NTT
+DisplayName = NTT
+CabrilloName = NTT
+Mode = BOTH
+DupeType = 2
+Multiplier1Name = Sect
+Multiplier2Name =
+Multiplier3Name = 
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 1
+PointsPerContact = ExchIsNotNum, 2
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = 
+MultWindowType = NTT
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints =  
+BonusPoints2 = 
+MultiplierBands = 1 
+QsoErrorString = Any_not_Empty
+QsoErrorString =Sect
+EntryWindowInfo =SNTText, 200, RCVText, 200, Exchange1Text, 400
+FrameText =SntNr  RcvNr  Exchange
+LogInfo =SentReport, 200, ReceiveReport,200, Exchange1,300, Points, 50 
+DefaultContestExchange =03N
+GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
+GenericPrintStringHeader =Date   Time   Freq   Mode MyCall      Sent   Call      Exchange 
+IsWorkable = JA,JD/o,JD/m
+SpecialInstructions =
+DupeSqlString =
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = http:www.srr.ruCONTESTcup_raem_engl_08.php
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 1
+CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4,, SentExch, 4,   Points,4 ,Comment, 40,
+GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4, Points,4,  Comment, 40
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
+QsoNumbersByBand = 0 
+DigitalModeSqlString = False*
+MultipleSessions =  
+ResetMultsEverySession = 0*
+CabrilloVersion = 2.0*
+

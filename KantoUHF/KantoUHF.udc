@@ -1,0 +1,38 @@
+[Author]
+AuthorName = Seiichi Tanaka
+Callsign= JI1FLB
+Email= ji1flb@jarl.com
+[File]
+Revision = 1.1.0
+LastUpdate=2017/02/11
+Description = Kanto UHF Contest
+[Contest]
+Name =KantoUHF
+DisplayName = KantoUHF
+CabrilloName = KantoUHF
+Mode = BOTH
+DupeType = 2
+Multiplier1Name = Multi
+MultSqlString = Section
+Period = 1
+PointsPerContact = JA,1
+ShowMyCountryStations = True
+MultWindowType = KantoUHF
+MultiplierBands =   
+QsoErrorString =Sect
+EntryWindowInfo =SNTText, 200, ,RCVText, 200, Exchange1Text, 400
+FrameText =SntNr RcvNr Exchange Comment
+LogInfo =SentReport, 100, ReceiveReport,100, Exchange1,200, IsMultiplier1, 100, Points, 100,Comment, 200,opname,200
+DefaultContestExchange = 100122
+IsWorkable = JA,JD/o,JD/m
+DupeSqlString = 0
+IsMultPer = 1
+ScoreSummaryMultNames = Multi
+CabrilloFormat = 99
+CabrilloString = SNT, 3, SentExchPart1, 6, CallSign, 12, RCV, 3, Exchange1, 6, Comment, 12
+GenericPrintString  = SNT, 3, SentExchPart1, 6, CallSign, 12, RCV, 3, Exchange1, 6, Comment, 12
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
+QsoNumbersByBand = 0 
+DigitalModeSqlString = False
+ResetMultsEverySession = 0
+CabrilloVersion = 3.0

@@ -1,0 +1,55 @@
+[Author]
+AuthorName =$Author:Seiichi Tanaka $
+Callsign = JI1FLB
+Email =ji1flb@jarl.com
+[File]
+Revision =$Revision: 1.01$
+LastUpdate =16/09/22 
+Description = AI Contest
+[Contest]
+Name =AI	
+DisplayName =AI
+CabrilloName =AI
+Mode =BOTH
+DupeType =2
+Multiplier1Name = Sect
+Multiplier2Name = 
+Multiplier3Name = 
+Period =2 
+PointsPerContact = JA, 1
+ShowMyCountryStations =True
+ShowWarcBands =
+ZoneType =
+MultSqlString = Section
+MultSqlString2 =
+MultSqlString3 =
+MultWindowType =AI
+IsMultPer = 1
+MultiplierBands =
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints =
+QsoErrorString = Sect
+EntryWindowInfo = SNTText, 450, RCVText, 500, Exchange1Text, 500 
+FrameText = SntNr   RcvNr  Exchange
+LogInfo = SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 
+DefaultContestExchange =10
+
+CabrilloFormat = 1
+GenericPrintString = SNT, 4, SentExchPart1, 4,  CallSign, 15, RCV,  4, Exchange1, 6, Multiplier1, 3, Points, 3
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST Sent  Call            RST Exch Multi Pts
+
+IsWorkable = JA,JD/o,JD/m
+SpecialInstructions =
+DupeSqlString =
+StartOfContest = 7, 06
+EndOfContest = 0, 18
+IsMultPer = 1
+MinimumOffTime =
+UsesWAECountries =
+SetSentTimeForContact =
+ScoreSummaryMultNames = AI
+WebAddress = 
+DigitalModeSqlString =
+MultipleSessions =
+ResetMultsEverySession =   
