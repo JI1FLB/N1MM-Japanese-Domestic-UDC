@@ -1,0 +1,84 @@
+﻿[Author]
+AuthorName = SEIICHI TANAKA
+Callsign= JI1FLB
+Email= ji1flb at jarl.com
+[File]
+Revision = 1.4.0
+LastUpdate =2017/11/22 10:21:46
+Description = TOKYO Contest(May) TOKYO CW Contest(Oct) TOKYO UHF Contest(Nov) 
+[Contest]
+Name = TOKYO TEST
+DisplayName = TOKYO Contest
+CabrilloName = TOKYO Contest
+Mode = BOTH
+DupeType = 2
+Multiplier1Name = Sect
+Multiplier2Name =
+Multiplier3Name = 
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 1
+PointsPerContact = SectIs_002,2,SectIs_003,2,SectIs_004,2,SectIs_005,2,SectIs_006,2,SectIs_007,2,SectIs_008,2,SectIs_009,2,SectIs_010,2,SectIs_011,2,SectIs_012,2,SectIs_013,2,SectIs_014,2,SectIs_015,2,SectIs_016,2,SectIs_019,2,SectIs_020,2,SectIs_021,2,SectIs_022,2,SectIs_023,2,SectIs_024,2,SectIs_025,2,SectIs_026,2,SectIs_028,2,SectIs_029,2,SectIs_030,2,SectIs_101,2,SectIs_102,2,SectIs_103,2,SectIs_104,2,SectIs_105,2,SectIs_106,2,SectIs_107,2,SectIs_108,2,SectIs_109,2,SectIs_110,2,SectIs_111,2,SectIs_112,2,SectIs_113,2,SectIs_114,2,SectIs_115,2,SectIs_116,2,SectIs_117,2,SectIs_118,2,SectIs_119,2,SectIs_120,2,SectIs_121,2,SectIs_122,2,SectIs_123,2,SectIs_201,2,SectIs_202,2,SectIs_203,2,SectIs_204,2,SectIs_304,2,SectIs_305,2,SectIs_306,2,SectIs_307,2
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = 
+MultWindowType = TOKYO
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints =
+BonusPoints2 =
+DoNotCountMeAsMult = False
+DoNotCountMeAsMult2
+DoNotCountMeAsMult3
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+MultiplierBands = 2
+QsoErrorString = Any_not_Empty
+EntryWindowInfo =SNTText, 450, RCVText, 500, Exchange1Text, 500 
+FrameText =SntNr  RcvNr  Exchange
+LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+DefaultContestExchange =122
+GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
+GenericPrintStringHeader =Date   Time   Freq   Mode MyCall      Sent   Call      Exchange 
+IsWorkable = JA,JD/o,JD/m
+SpecialInstructions =
+DupeSqlString = 0
+StartOfContest = 
+EndOfContest =
+IsMultPer =  1
+IsMult1Per =
+IsMult2Per =
+IsMult3Per = 
+MinimumOffTime = 
+UsesWAECountries = False
+SetSentTimeForContact = False
+ScoreSummaryMultNames = Mul
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = http://www.jarl-tokyo.com/
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 1
+CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4,   Points,4 ,Comment, 40,
+GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4, Points,4,  Comment, 40
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
+QsoNumbersByBand = 0 
+DigitalModeSqlString =
+MultipleSessions =  
+ResetMultsEverySession = 0
+CabrilloVersion = 3.0
+!MultMult = 1
+!MultMult2 = 
+!MultMult3 = 
+!BandChangesPerPeriod = 10000
+
+
