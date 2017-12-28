@@ -3,7 +3,7 @@ AuthorName = SEIICHI TANAKA
 Callsign= JI1FLB
 Email= ji1flb at jarl.com
 [File]
-Revision = 1.0.01
+Revision = 1.1.0
 LastUpdate =2017/12/28 11:35:36
 Description = NYP Contest
 [Contest]
@@ -43,22 +43,30 @@ CountMultOnlyForSec3 =
 MultiplierBands = 2
 QsoErrorString = Any_not_Empty
 
-EntryWindowInfo = SNTText, 250, RCVText, 250, CommentText, 600
-FrameText = SntNr RcvNr Comment
-LogInfo = SentReport, 250, ReceiveReport,250,Comment,500
-
+EntryWindowInfo = SNTText, 250, RCVText, 250, NameText, 500
+FrameText = SntNr RcvNr Name
+LogInfo = SentReport, 250, ReceiveReport,250, opname, 500
 *****************************************************************************
 *
-*  Ctestwin can not import nama parameter in ADIF files. 
-*  So, This configration can not use under Ctestwin. 
+*  Ctestwin can import this CARIBRO file. 
 *
-* EntryWindowInfo = SNTText, 250, RCVText, 250, NameText, 600
+* EntryWindowInfo = SNTText, 250, RCVText, 250, NameText, 500
 * FrameText = SntNr RcvNr Name
-* LogInfo = SentReport, 250, ReceiveReport,250, opname ,500,Comment,500
+* LogInfo = SentReport, 250, ReceiveReport,250, opname ,500
 *
 *****************************************************************************
 
-DefaultContestExchange =TANAKA
+*****************************************************************************
+*
+*  Ctestwin can import this ADIF file. 
+*
+* EntryWindowInfo = SNTText, 250, RCVText, 250, CommentText, 500
+* FrameText = SntNr RcvNr Comment
+* LogInfo = SentReport, 250, ReceiveReport,250, Comment, 500
+*
+*****************************************************************************
+
+DefaultContestExchange = TANAKA
 GenericPrintString = SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, NameText,20
 GenericPrintStringHeader = Date   Time   Freq   Mode MyCall      Sent   Call     Name 
 IsWorkable = Any 
@@ -80,10 +88,25 @@ ScoreSummaryMultNames = Mul
 *  Web address for the contest rules 
 ************************************************************************************
 
-CabrilloFormat = 1
-CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4,   Points,4 ,Comment, 40,
-GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4, Points,4,  Comment, 40
-GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
+*	CabrilloFormat = 1
+*	CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4,   Points,4 ,Comment, 40,
+*	GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4, Points,4,  Comment, 40
+*	GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
+*	QsoNumbersByBand = 0 
+*	DigitalModeSqlString = False
+*	MultipleSessions =  
+*	ResetMultsEverySession = 0
+*	CabrilloVersion = 3.0
+*	!MultMult = 1
+*	!MultMult2 = 
+*	!MultMult3 = 
+*	!BandChangesPerPeriod = 10000
+
+
+CabrilloFormat = 99
+CabrilloString     =  SNT, 4, SentExch, 16 , CallSign, 12, RCV, 4, Name, 16
+GenericPrintString =  SNT, 4, SentExch, 16 , CallSign, 12, RCV, 4, Name, 16
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall   RST  Snt  Call SentExch    RST  Rcvd    Name
 QsoNumbersByBand = 0 
 DigitalModeSqlString = False
 MultipleSessions =  
@@ -93,5 +116,3 @@ CabrilloVersion = 3.0
 !MultMult2 = 
 !MultMult3 = 
 !BandChangesPerPeriod = 10000
-
-
