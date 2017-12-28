@@ -1,10 +1,10 @@
 [Author]
-AuthorName =$Author:Seiichi Tanaka $
+AuthorName = Seiichi Tanaka
 Callsign = JI1FLB
-Email =ji1flb@jarl.com
+Email =ji1flb at jarl.com
 [File]
-Revision =$Revision: 1.0$
-LastUpdate =16/09/19 
+Revision = 1.0.0
+LastUpdate =2016/09/19 
 Description = XPO Contest in Japan (September)
 [Contest]
 Name =XPO	

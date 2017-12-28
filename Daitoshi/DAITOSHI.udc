@@ -1,9 +1,9 @@
 [Author]
-AuthorName=$Author:Seiichi tanaka $
+AuthorName= Seiichi tanaka
 Callsign=JI1FLB
-Email=ji1flb@jarl.com
+Email=ji1flb at jarl.com
 [File]
-Revision =$Revision: 1.0 $
+Revision =1.0.0
 LastUpdate =17/03/20
 Description =DAITOSHI
 [Contest]

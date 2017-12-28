@@ -1,9 +1,9 @@
 [Author]
-AuthorName =$Author:Seiichi Tanaka $
+AuthorName =Seiichi Tanak
 Callsign = JI1FLB
-Email =ji1flb@jarl.com
+Email =ji1flb at jarl.com
 [File]
-Revision =$Revision: 1.01$
+Revision =1.01
 LastUpdate =16/09/22 
 Description = AI Contest
 [Contest]
