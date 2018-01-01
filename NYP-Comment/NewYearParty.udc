@@ -3,7 +3,7 @@ AuthorName = SEIICHI TANAKA
 Callsign= JI1FLB
 Email= ji1flb at jarl.com
 [File]
-Revision = 1.1.1
+Revision = 1.1.0
 LastUpdate =2017/12/28 11:35:36
 Description = NYP Contest
 [Contest]
@@ -43,9 +43,10 @@ CountMultOnlyForSec3 =
 MultiplierBands = 2
 QsoErrorString = Any_not_Empty
 
-EntryWindowInfo = SNTText, 250, RCVText, 250, NameText, 600
-FrameText = SntNr RcvNr Name
-LogInfo = SentReport, 250, ReceiveReport,250, opname, 600
+EntryWindowInfo = SNTText, 250, RCVText, 250, CommentText, 600
+FrameText = SntNr RcvNr Comment
+LogInfo = SentReport, 250, ReceiveReport,250, Comment, 600
+
 *****************************************************************************
 *
 *  Ctestwin can import this CARIBRO file. 
