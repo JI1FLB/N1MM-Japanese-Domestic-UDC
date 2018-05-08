@@ -65,9 +65,10 @@ SetSentTimeForContact = False
 ScoreSummaryMultNames = "Sec", "Cty", "Grd"
 CabrilloFormat = 99
 
-CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, Comment, 40
-GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 15, RCV, 4, RcvNr, 4, Comment, 12
-GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call   QsoNumbersByBand = 0 
+CabrilloString = SNT, 4, SentExch, 4, CallSign, 13, RCV, 4, Exchange1, 4
+GenericPrintString  = SNT, 4, SentExch, 4, CallSign, 13, RCV, 4, Exchange1, 4
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call  RST RCV
+QsoNumbersByBand = 0 
 DigitalModeSqlString = False
 MultipleSessions =  
 ResetMultsEverySession =
