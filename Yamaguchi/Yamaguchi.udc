@@ -3,8 +3,8 @@ AuthorName = Seiichi Tanaka
 Callsign= JI1FLB
 Email= ji1flb at jarl.com
 [File] section
-Revision = 1.0.0 
-LastUpdate = 17/05/13
+Revision = 1.1.0 
+LastUpdate = 18/05/09 9:58:12
 Description = Yamaguchi Contest
 [Contest] 
 Name = YAMAGUCHI
@@ -49,6 +49,7 @@ QsoErrorString =
 EntryWindowInfo = SNTText, 150, RCVText, 150, Exchange1Text, 400
 FrameText =SntNr  RcvNr  Exchange
 LogInfo = SentReport, 150, ReceiveReport,150, Exchange1,400, Points, 10 
+
 DefaultContestExchange =10
 
 IsWorkable = JA,JD/o,JD/m
@@ -64,9 +65,10 @@ SetSentTimeForContact = False
 ScoreSummaryMultNames = "Sec", "Cty", "Grd"
 CabrilloFormat = 99
 
-CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, Comment, 40
-GenericPrintString  = SNT, 4, SentNr, 0, CallSign, 15, RCV, 4, RcvNr, 0, Comment, 12
-GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call   QsoNumbersByBand = 0 
+CabrilloString = SNT, 4, SentExch, 7, CallSign, 13, RCV, 4, Exchange1, 7
+GenericPrintString  = SNT, 4, SentExch, 7, CallSign, 13, RCV, 4, Exchange1, 7
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+QsoNumbersByBand = 0 
 DigitalModeSqlString = False
 MultipleSessions =  
 ResetMultsEverySession =
