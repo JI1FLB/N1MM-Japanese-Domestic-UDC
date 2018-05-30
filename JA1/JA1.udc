@@ -61,12 +61,12 @@ IsMult3Per =
 MinimumOffTime = 
 UsesWAECountries = False
 SetSentTimeForContact = False
-ScoreSummaryMultNames = "Sec", "Cty", "Grd"
+ScoreSummaryMultNames = Sec
 CabrilloFormat = 99
 
-CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, Comment, 40
-GenericPrintString  = SNT, 4, SentNr, 0, CallSign, 15, RCV, 4, RcvNr, 0, Comment, 12
-GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call   QsoNumbersByBand = 0 
+CabrilloString = SNT, 4, SentExch, 7, CallSign, 13, RCV, 4, Exchange1, 7
+GenericPrintString  = SNT, 4, SentExch, 7, CallSign, 13, RCV, 4, Exchange1, 7
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
 DigitalModeSqlString = False
 MultipleSessions =  
 ResetMultsEverySession =
