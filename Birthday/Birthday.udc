@@ -16,7 +16,7 @@ Multiplier1Name =Sect
 Multiplier2Name = 
 Multiplier3Name = 
 Period = 1
-PointsPerContact =1
+PointsPerContact =  1
 ShowMyCountryStations =
 ShowWarcBands =
 ZoneType =
@@ -28,20 +28,20 @@ IsMultPer = 1
 MultiplierBands =
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints =
+BonusPoints = ExchIs_0403, 5
 BonusPoints2 = 
 QsoErrorString =Sect
 EntryWindowInfo =SNTText, 200, RCVText, 200, Exchange1Text, 400 
 FrameText =SntNr   RcvNr  Exchange
 LogInfo =SentReport, 100, ReceiveReport,100, Exchange1,200, IsMultiplier1, 200, Points, 100 
+
 DefaultContestExchange =0403
-GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
-GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       Sent    Call            Exchange
+
 IsWorkable = JA,JD/o,JD/m
 SpecialInstructions =
 DupeSqlString =
-StartOfContest = 1, 12
-EndOfContest = 2,12
+StartOfContest =
+EndOfContest =
 IsMultPer = 1
 MinimumOffTime =
 UsesWAECountries =
@@ -51,3 +51,32 @@ WebAddress = http://www.jarl.com/mcc/
 DigitalModeSqlString =
 MultipleSessions =
 ResetMultsEverySession =   
+
+CabrilloFormat = 99
+CabrilloString = CallSign, 11, SNT, 4, SentNr, 5, RCV, 4, RcvNr, 5, Exchange1, 5, Points, 2
+GenericPrintString  =  CallSign, 11, SNT, 4, SentNr, 5, RCV, 4, RcvNr, 5, Exchange1, 5, Points, 2
+GenericPrintStringHeader = DATE(JST)	TIME	BAND	MODE	CALLSIGN	SENTNo	RCVNo	Multi	PTS
+
+
+DigitalModeSqlString = False
+MultipleSessions =  
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =*
+MOBandChangeTimerDuration =*
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
+
