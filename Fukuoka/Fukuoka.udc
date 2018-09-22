@@ -3,12 +3,12 @@ AuthorName=Seiichi Tanaka
 Callsign=JI1FLB
 Email=ji1flb at jarl.com
 [File]
-Revision = 1.0.0
-LastUpdate = 18/09/21 19:23
-Description =ALL Fukuoka Contest
+Revision = 1.0.1
+LastUpdate = 18/09/22 12:58
+Description =Fukuoka
 [Contest]
 Name =Fukuoka
-DisplayName =ALL Fukuoka Contest
+DisplayName =Fukuoka
 CabrilloName =Fukuoka
 Mode = BOTH
 DupeType = 2
