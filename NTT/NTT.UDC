@@ -1,58 +1,81 @@
 [Author]
-AuthorName = SEIICHI TANAKA
-Callsign= JI1FLB
-Email= ji1flb at jarl.com
+AuthorName=Seiichi Tanaka
+Callsign=JI1FLB
+Email=ji1flb at jarl.com
 [File]
-Revision = 1.1.0
-LastUpdate =2017/10/23 15:24:26
-Description = NTT Contest
+Revision = 1.2.01
+LastUpdate = 18/10/18 8:08
+Description = NTT
 [Contest]
 Name = NTT
 DisplayName = NTT
 CabrilloName = NTT
 Mode = BOTH
 DupeType = 2
-Multiplier1Name = Sect
-Multiplier2Name =
+Multiplier1Name =Sect
+Multiplier2Name = 
 Multiplier3Name = 
-MultSqlString = Section
-MultSqlString2 = 
-MultSqlString3 = 
 Period = 1
-PointsPerContact = ExchIsNotNum, 2
+PointsPerContact = ExchIsNum, 1, ExchIsNotNum, 2
 ShowMyCountryStations = True
-ShowWarcBands = False
-ZoneType = 
+ShowWarcBands =
+ZoneType =
+MultSqlString =Section
+MultSqlString2 =
+MultSqlString3 =
 MultWindowType = NTT
+IsMultPer = 1
+MultiplierBands =
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints =  
+BonusPoints =
 BonusPoints2 = 
-MultiplierBands = 1 
-QsoErrorString = Any_not_Empty
 QsoErrorString =Sect
-EntryWindowInfo =SNTText, 200, RCVText, 200, Exchange1Text, 400
-FrameText =SntNr  RcvNr  Exchange
-LogInfo =SentReport, 200, ReceiveReport,200, Exchange1,300, Points, 50 
+EntryWindowInfo =SNTText, 200, RCVText, 200, Exchange1Text, 400 
+FrameText =SntNr   RcvNr  Exchange
+LogInfo =SentReport, 100, ReceiveReport,100, Exchange1,200, IsMultiplier1, 200, Points, 100 
+
 DefaultContestExchange =03N
+
 GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
-GenericPrintStringHeader =Date   Time   Freq   Mode MyCall      Sent   Call      Exchange 
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       Sent    Call           Exchange
+
 IsWorkable = JA,JD/o,JD/m
 SpecialInstructions =
-DupeSqlString =
+DupeSqlString = 0
+StartOfContest =
+EndOfContest =
+IsMultPer = 3
+IsMult1Per = 1
+IsMult2Per = 
+IsMult3Per = 
+MinimumOffTime = 
+UsesWAECountries = False
+SetSentTimeForContact = False
+ScoreSummaryMultNames = Sec
+CabrilloFormat = 99
 
-************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
-*WebAddress = http:www.srr.ruCONTESTcup_raem_engl_08.php
-*  Web address for the contest rules 
-************************************************************************************
-
-CabrilloFormat = 1
-CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4,, SentExch, 4,   Points,4 ,Comment, 40,
-GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4, Points,4,  Comment, 40
-GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
-QsoNumbersByBand = 0 
-DigitalModeSqlString = False*
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+DigitalModeSqlString = False
 MultipleSessions =  
-ResetMultsEverySession = 0*
-CabrilloVersion = 2.0*
-
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =*
+MOBandChangeTimerDuration =*
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
