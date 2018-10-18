@@ -19,8 +19,30 @@ NTT.sec	18/10/17 20:17:46
 NTT.udc	18/10/18 07:59:14
 	ロギングOK　※NTT局マルチはxxNとして入力
 	Telnet接続　OK	Ctestwin OK
+	Ctestwin　OK　※CtestwinではNTT局を2点カウントしない。
 	Mytool　NG　※　NTTコンテストに未対応のため
 ※　昨年までは、[PointsPerContact = ExchIsNotNum, 2]と記述すれば、
 NTT局が2ポイント、一般局が1ポイントでしたが、 
 現状のファイルでは[PointsPerContact = ExchIsNum, 1, ExchIsNotNum, 2]と変更し、
 NTT局が2ポイント、一般局が1ポイントとなる。
+
+CHIBA.sec	18/10/18 12:05:28
+	コンテストルールに地域等と記載があるため、南鳥島、沖ノ島マルチを追加
+
+TOKYO.udc	18/10/18 18:01:22
+	・変更：QsoErrorString = Any_not_EmptyをSECファイルに有るマルチのみを入力可能とるため、
+	QsoErrorString = Sectに変更した。
+	・変更：現状のN1MM Logger+バージョンは、昨年には[PointsPerContact = SectIs_xxx,2・・・]と都内局だけを記述するだけで都内局のポイントを2、県外局のポイントを１とカウントしたが、現状ではNGであったために、全マルチをSectIs_xxxに記述した。
+	・追加：キャリブロファイル出力可能とするため、独自フォーマットパラメータ99とフォーマットを追加
+	
+	ロキング　OK
+	Telnet接続　OK
+	Ctestwin　OK
+	Mytool　OK　※但し、JARL東京支部にはVer2型式であるため、提出不可
+	
+TOKYO.sec	18/10/18 18:01:31
+	目視チェック　OK
+	ロギングで全マルチを入力し、正しくマルチカウント、都内局のポイントをカウントすることを確認
+
+
+	
