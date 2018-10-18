@@ -4,8 +4,8 @@ Callsign= JI1FLB
 Email= ji1flb at jarl.com
 [File]
 Revision = 1.4.0
-LastUpdate =2017/11/22 10:21:46
-Description = TOKYO Contest TOKYO CW Contest TOKYO UHF Contest 
+LastUpdate = 18/10/18 17:45
+Description = TOKYO Contest TOKYO CW Contest TOKYO UHF Contest
 [Contest]
 Name = TOKYO TEST
 DisplayName = TOKYO Contest
@@ -19,7 +19,7 @@ MultSqlString = Section
 MultSqlString2 = 
 MultSqlString3 = 
 Period = 1
-PointsPerContact = SectIs_002,2,SectIs_003,2,SectIs_004,2,SectIs_005,2,SectIs_006,2,SectIs_007,2,SectIs_008,2,SectIs_009,2,SectIs_010,2,SectIs_011,2,SectIs_012,2,SectIs_013,2,SectIs_014,2,SectIs_015,2,SectIs_016,2,SectIs_019,2,SectIs_020,2,SectIs_021,2,SectIs_022,2,SectIs_023,2,SectIs_024,2,SectIs_025,2,SectIs_026,2,SectIs_028,2,SectIs_029,2,SectIs_030,2,SectIs_101,2,SectIs_102,2,SectIs_103,2,SectIs_104,2,SectIs_105,2,SectIs_106,2,SectIs_107,2,SectIs_108,2,SectIs_109,2,SectIs_110,2,SectIs_111,2,SectIs_112,2,SectIs_113,2,SectIs_114,2,SectIs_115,2,SectIs_116,2,SectIs_117,2,SectIs_118,2,SectIs_119,2,SectIs_120,2,SectIs_121,2,SectIs_122,2,SectIs_123,2,SectIs_201,2,SectIs_202,2,SectIs_203,2,SectIs_204,2,SectIs_304,2,SectIs_305,2,SectIs_306,2,SectIs_307,2
+PointsPerContact = SectIs_002,2,SectIs_003,2,SectIs_004,2,SectIs_005,2,SectIs_006,2,SectIs_007,2,SectIs_008,2,SectIs_009,2,SectIs_010,2,SectIs_011,2,SectIs_012,2,SectIs_013,2,SectIs_014,2,SectIs_015,2,SectIs_016,2,SectIs_019,2,SectIs_020,2,SectIs_021,2,SectIs_022,2,SectIs_023,2,SectIs_024,2,SectIs_025,2,SectIs_026,2,SectIs_028,2,SectIs_029,2,SectIs_030,2,SectIs_101,2,SectIs_102,2,SectIs_103,2,SectIs_104,2,SectIs_105,2,SectIs_106,2,SectIs_107,2,SectIs_108,2,SectIs_109,2,SectIs_110,2,SectIs_111,2,SectIs_112,2,SectIs_113,2,SectIs_114,2,SectIs_115,2,SectIs_116,2,SectIs_117,2,SectIs_118,2,SectIs_119,2,SectIs_120,2,SectIs_121,2,SectIs_122,2,SectIs_123,2,SectIs_201,2,SectIs_202,2,SectIs_203,2,SectIs_204,2,SectIs_401,2,SectIs_402,2,SectIs_403,2,SectIs_404,2,SectIs_411,2,SectIs_412,2,SectIs_421,2,SectIs_422,2,SectIs_431,2,SectIs_01,1,SectIs_02,1,SectIs_03,1,SectIs_04,1,SectIs_05,1,SectIs_06,1,SectIs_07,1,SectIs_08,1,SectIs_09,1,SectIs_11,1,SectIs_12,1,SectIs_13,1,SectIs_14,1,SectIs_15,1,SectIs_16,1,SectIs_17,1,SectIs_18,1,SectIs_19,1,SectIs_20,1,SectIs_21,1,SectIs_22,1,SectIs_23,1,SectIs_24,1,SectIs_25,1,SectIs_26,1,SectIs_27,1,SectIs_28,1,SectIs_29,1,SectIs_30,1,SectIs_31,1,SectIs_32,1,SectIs_33,1,SectIs_34,1,SectIs_35,1,SectIs_36,1,SectIs_37,1,SectIs_38,1,SectIs_39,1,SectIs_40,1,SectIs_41,1,SectIs_42,1,SectIs_43,1,SectIs_44,1,SectIs_45,1,SectIs_46,1,SectIs_47,1
 ShowMyCountryStations = True
 ShowWarcBands = False
 ZoneType = 
@@ -41,11 +41,13 @@ CountMultOnlyForSec =
 CountMultOnlyForSec2 =
 CountMultOnlyForSec3 =
 MultiplierBands = 2
-QsoErrorString = Any_not_Empty
+QsoErrorString = Sect
 EntryWindowInfo =SNTText, 450, RCVText, 500, Exchange1Text, 500 
 FrameText =SntNr  RcvNr  Exchange
 LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
 DefaultContestExchange =122
+
 GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
 GenericPrintStringHeader =Date   Time   Freq   Mode MyCall      Sent   Call      Exchange 
 IsWorkable = JA,JD/o,JD/m
@@ -67,18 +69,28 @@ ScoreSummaryMultNames = Mul
 *  Web address for the contest rules 
 ************************************************************************************
 
-CabrilloFormat = 1
-CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4,   Points,4 ,Comment, 40,
-GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4, Points,4,  Comment, 40
-GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
-QsoNumbersByBand = 0 
-DigitalModeSqlString =
+
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+DigitalModeSqlString = False
 MultipleSessions =  
-ResetMultsEverySession = 0
-CabrilloVersion = 3.0
-!MultMult = 1
-!MultMult2 = 
-!MultMult3 = 
-!BandChangesPerPeriod = 10000
-
-
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =*
+MOBandChangeTimerDuration =*
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
