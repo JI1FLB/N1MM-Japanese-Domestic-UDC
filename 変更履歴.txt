@@ -5,4 +5,7 @@ CHIBA.udc	18/10/17 18:12	ロギングOK　※AMモードは得点が0	Telnet接�
 
 CHIBA.sec	18/10/17 18:16	他都道府県マルチを追加
 
+NTT.sec	18/10/17 20:17:46	最新の総務省電話番号情報とSECファイルを比較し、差異が無いことを確認
 
+NTT.udc	18/10/18 07:59:14	ロギングOK　※NTT局も得点は１。マルチはxxNとして入力。Telnet接続　OK	Ctestwin OK	Mytool　NG　※　NTTコンテストに未対応のため
+※　昨年までは、[PointsPerContact = ExchIsNotNum, 2]と記述すれば、NTT局が2ポイント、一般局が1ポイントでしたが、 現状のファイルでは[PointsPerContact = ExchIsNum, 1, ExchIsNotNum, 2]と変更し、NTT局が2ポイント、一般局が1ポイントとなる。
