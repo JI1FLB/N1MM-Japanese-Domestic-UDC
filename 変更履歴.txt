@@ -1,11 +1,26 @@
 変更履歴
 
-CHIBA.udc	18/10/17 18:12	ロギングOK　※AMモードは得点が0	Telnet接続　OK	Ctestwin OK	Mytool　OK
-※　バンドマップ上で、SSBでQSOした局がCWでNewと表示される。
+CHIBA.udc	18/10/17 18:12
+	ロギングOK　※AMモードは得点が0
+	Telnet接続　OK
+	Ctestwin OK
+	Mytool　OK
+※　バンドマップ上表示は、千葉コンテストが電話、電信でのQSO可能であり、
+SSBでQSOした局がCWでNewと表示される。その逆も正常性を確認
+※　AMモードは[PointsPerContact = ・・・, AM, 1]とパラメータ設定したが、
+得点が0となる。機能的に得点計算不可能なようである。
 
-CHIBA.sec	18/10/17 18:16	他都道府県マルチを追加
+CHIBA.sec	18/10/17 18:16
+	他都道府県マルチを追加
 
-NTT.sec	18/10/17 20:17:46	最新の総務省電話番号情報とSECファイルを比較し、差異が無いことを確認
+NTT.sec	18/10/17 20:17:46
+	最新の総務省電話番号情報とSECファイルを比較し、差異が無いことを確認
 
-NTT.udc	18/10/18 07:59:14	ロギングOK　※NTT局も得点は１。マルチはxxNとして入力。Telnet接続　OK	Ctestwin OK	Mytool　NG　※　NTTコンテストに未対応のため
-※　昨年までは、[PointsPerContact = ExchIsNotNum, 2]と記述すれば、NTT局が2ポイント、一般局が1ポイントでしたが、 現状のファイルでは[PointsPerContact = ExchIsNum, 1, ExchIsNotNum, 2]と変更し、NTT局が2ポイント、一般局が1ポイントとなる。
+NTT.udc	18/10/18 07:59:14
+	ロギングOK　※NTT局マルチはxxNとして入力
+	Telnet接続　OK	Ctestwin OK
+	Mytool　NG　※　NTTコンテストに未対応のため
+※　昨年までは、[PointsPerContact = ExchIsNotNum, 2]と記述すれば、
+NTT局が2ポイント、一般局が1ポイントでしたが、 
+現状のファイルでは[PointsPerContact = ExchIsNum, 1, ExchIsNotNum, 2]と変更し、
+NTT局が2ポイント、一般局が1ポイントとなる。
