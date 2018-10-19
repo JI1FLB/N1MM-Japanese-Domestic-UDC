@@ -50,7 +50,7 @@ CountMultOnlyForSec2 =
 CountMultOnlyForSec3 =
 
 MultiplierBands = 2 
-QsoErrorString = Any
+QsoErrorString = Any_not_Empty
 
 EntryWindowInfo = SNTText, 350, RCVText, 350,  MiscText, 600
 FrameText = SntRpt   RcvRpt   KeyType
