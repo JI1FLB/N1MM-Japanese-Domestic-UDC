@@ -56,7 +56,7 @@ EntryWindowInfo = SNTText, 350, RCVText, 350,  MiscText, 600
 FrameText = SntRpt   RcvRpt   KeyType
 LogInfo = SentReport, 500, ReceiveReport, 500, MiscText, 600, Points, 500
 
-DefaultContestExchange = 
+DefaultContestExchange = XXXXXXXX
 IsWorkable = 
 SpecialInstructions =
 DupeSqlString = 
