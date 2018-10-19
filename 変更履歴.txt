@@ -73,4 +73,6 @@ A1Club.udc	18/10/19 15:19:36
 	CtestWin　実施
 	　※　ADIFファイルはインポート可能、キャリブロはNG
 	Mytool OK
-	
+
+NTT.udc	18/10/19 20:31:30
+	Mytool　OK　※　NTTコンテストに対応済みのため	
