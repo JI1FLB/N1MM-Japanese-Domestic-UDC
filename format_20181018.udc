@@ -1,0 +1,106 @@
+[Author]
+AuthorName = your name
+Callsign= your callsign
+Email= your email
+
+[File]
+Revision = 1.0.0 
+LastUpdate = 123009
+Description = 
+
+[Contest]
+Name =SAMPLETEST
+DisplayName = SAMPLE USER TEST
+CabrilloName = SAMPLE-USER-TEST
+Mode = 
+DupeType = 
+Multiplier1Name = 
+Multiplier2Name = 
+Multiplier3Name = 
+MultSqlString = 
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 
+PointsPerContact = 
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = CQ
+MultWindowType = Section
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints = 
+BonusPoints2 = 
+DoNotCountMeAsMult = 
+DoNotCountMeAsMult2
+DoNotCountMeAsMult3
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+
+MultiplierBands = 2 
+QsoErrorString = 
+
+EntryWindowInfo = SNTText, 500, SntNrText, 700, RCVText, 500, Exchange1Text, 500
+FrameText = SntRpt  SntNR   RcvRpt   NR
+LogInfo = SentReport, 500, SentNR, 500, ReceiveReport, 500, NR, 500, Points, 500
+
+DefaultContestExchange = 
+IsWorkable = 
+SpecialInstructions =
+DupeSqlString = 
+
+StartOfContest = 
+EndOfContest = 
+
+IsMultPer = 
+IsMult1Per = 
+IsMult2Per = 
+IsMult3Per = 
+MinimumOffTime = 
+UsesWAECountries = 
+SetSentTimeForContact = 
+ScoreSummaryMultNames = Sec
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = http:www.srr.ruCONTESTcup_raem_engl_08.php
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, Comment, 40
+GenericPrintString  = SNT, 4, SentNr, 0, CallSign, 15, RCV, 4, RcvNr, 0, Comment, 12
+GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
+QsoNumbersByBand = 
+DigitalModeSqlString = 
+MultipleSessions =  
+ResetMultsEverySession = 
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 = 
+MultMult3 =
+BandChangesPerPeriod = 
+SingleOpCountableBandChange = 
+MultiOpCountableBandChange = 
+CountBandOrModeChange = 
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = 
+CountBandChangesPerPeriod = 
+SOBandChangeTimerDuration = 
+MOBandChangeTimerDuration = 
+UsesLASTEXCHmacro = 
+DupeQSOMinutesAgo = 
+PowerMult = 1
