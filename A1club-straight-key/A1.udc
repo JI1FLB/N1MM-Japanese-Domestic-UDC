@@ -31,7 +31,7 @@ PointsMultByCategory =
 ShowMyCountryStations = True
 ShowWarcBands = False
 ZoneType = CQ
-MultWindowType = 
+MultWindowType = A1
 CQZoneMultContest = False
 NumMults = 1
 BonusPoints = 
@@ -64,7 +64,7 @@ DupeSqlString =
 StartOfContest = 
 EndOfContest = 
 
-IsMultPer = 
+IsMultPer = 1
 IsMult1Per = 
 IsMult2Per = 
 IsMult3Per = 
