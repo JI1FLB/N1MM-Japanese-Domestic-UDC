@@ -2,10 +2,12 @@
 AuthorName = Seiichi Tanaka
 Callsign= JI1FLB
 Email= ji1flb at jarl.com
+
 [File] section
 Revision = 1.1.0 
 LastUpdate = 18/10/19 15:08
 Description = A1CLUB STRAIGHT KEY Contest
+
 [Contest] 
 Name = A1Club
 DisplayName = A1CLUB STRAIGHT KEY
@@ -20,9 +22,12 @@ MultSqlString2 =
 MultSqlString3 =
 Period = 2
 PointsPerContact = 1
-PointsMultAtTimeLocal =
-PointsMultAtTimeGMT =
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
 PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
 ShowMyCountryStations = True
 ShowWarcBands = False
 ZoneType = 
@@ -43,36 +48,50 @@ DoNotCountMultOnlyFor3 =
 CountMultOnlyForSec =
 CountMultOnlyForSec2 =
 CountMultOnlyForSec3 =
+
 MultiplierBands = 2 
 QsoErrorString = Any_not_Empty
+
 EntryWindowInfo = SNTText, 200, RCVText, 200, Exchange1Text, 400
 FrameText =SntNr  RcvNr  Exchange
 LogInfo = SentReport, 200, ReceiveReport,200, Exchange1,300, Points, 50 
+
 DefaultContestExchange =XXXXXXXX
 IsWorkable = 
 SpecialInstructions =
-DupeSqlString = 0
-IsMultPer = 3
-IsMult1Per = 1
+DupeSqlString = 
+
+StartOfContest = 
+EndOfContest = 
+
+IsMultPer = 1
+IsMult1Per = 
 IsMult2Per = 
 IsMult3Per = 
 MinimumOffTime = 
 UsesWAECountries = False
 SetSentTimeForContact = False
 ScoreSummaryMultNames = Key
-CabrilloFormat = 1
-CabrilloString =
-GenericPrintString  =
-GenericPrintStringHeader = 
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = http:www.srr.ruCONTESTcup_raem_engl_08.php
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+
 DigitalModeSqlString = False
 MultipleSessions =  
 ResetMultsEverySession =
 ResetSNEverySession = 
-CabrilloVersion = 3.0
+CabrilloVersion = 2.0
 MultMult = 
 MultMult2 =
 MultMult3 =
-BandChangesPerPeriod = 
+BandChangesPerPeriod = 10000 
 SingleOpCountableBandChange = False
 MultiOpCountableBandChange = False
 CountBandOrModeChange = False
