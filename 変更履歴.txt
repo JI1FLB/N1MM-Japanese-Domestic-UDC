@@ -75,4 +75,16 @@ A1Club.udc	18/10/19 15:19:36
 	Mytool OK
 
 NTT.udc	18/10/19 20:31:30
-	Mytool　OK　※　NTTコンテストに対応済みのため	
+	Mytool　OK　※　NTTコンテストに対応済みのため
+
+CWplayoff.udc	18/10/21 17:29:43
+	マルチのS,Xでポイントが２、１となるようにPointパラメータの設定を変更。
+	※この方法を希望しない場合と不具合がある場合にはPointsPerContact = 1とすること
+
+	海外局も対象であるため、IsWorkable = Any　とした。
+	バンドマップに表示は海外局もNewと表示される。
+
+	ロギング　OK
+	Telnet OK
+	CtestWin　OK
+	MytooL　NG　※このコンテストに未対応のため、得点計算がNG
