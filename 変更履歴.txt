@@ -133,4 +133,18 @@ JA9.udc　18/10/22 13:09:49
 		　但しDup局をポイントとカウント。手動でDUP処理が必要
 	Mytool　OK
 	
+Tamagawa.udc　18/10/22 16:15
+	フォーマットの最新化で再作
+	キャリブロファイル出力の設定（CabrilloFormat = 99）
+	
+	ロギング　OK
+	Telnet　OK
+	CtestWin　NG
+		※ADIF,キャリブロともに読み込み可能。
+		　但しDup局をポイントとカウント。手動でDUP処理が必要
+	Mytool　OK
+
+Tamagawa.sec　18/10/22 16:18
+	ファイル名誤りの修正　旧：Tamamaga.sec
+	
 	
