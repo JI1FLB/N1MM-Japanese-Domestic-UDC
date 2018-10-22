@@ -52,7 +52,7 @@ CountMultOnlyForSec2 =
 CountMultOnlyForSec3 =
 
 MultiplierBands = 2
-QsoErrorString = Sect
+QsoErrorString = TOKYO
 
 EntryWindowInfo =SNTText, 450, RCVText, 500, Exchange1Text, 500 
 FrameText =SntNr  RcvNr  Exchange
@@ -86,8 +86,9 @@ CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
 GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
 GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
 
+QsoNumbersByBand = 
 DigitalModeSqlString = False
-MultipleSessions =  
+MultipleSessions = 
 ResetMultsEverySession =
 ResetSNEverySession = 
 CabrilloVersion = 2.0
