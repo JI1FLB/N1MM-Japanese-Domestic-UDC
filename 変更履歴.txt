@@ -152,4 +152,12 @@ TOKYO.udc　18/10/22 16:24
 	新規パラメータ漏れの追加　QsoNumbersByBand = 
 	
 TOKYO.sec　18/10/22 16:26
-	TYPE= TOKYO  TEST  SUB= から、TYPE= TOKYO  SUB=　へ変更	
+	TYPE= TOKYO  TEST  SUB= から、TYPE= TOKYO  SUB=　へ変更
+
+Osaka.udc  現在検証中
+
+Osaka.sec　18/10/22 17:22
+	今年からマルチのテールレターにXが使われるため、マルチを追加
+	府外マルチを追加。府外マルチの定義が不明確なため、可能性のあるマルチを追加
+	※　01、振興局マルチ、小笠原、南鳥島、沖ノ島
+	
