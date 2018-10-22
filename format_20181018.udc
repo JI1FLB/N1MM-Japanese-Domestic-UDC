@@ -31,7 +31,9 @@ PointsMultByCategory =
 ShowMyCountryStations = True
 ShowWarcBands = False
 ZoneType = CQ
-MultWindowType = Section
+
+MultWindowType = 
+
 CQZoneMultContest = False
 NumMults = 1
 BonusPoints = 
