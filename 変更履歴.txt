@@ -154,8 +154,18 @@ TOKYO.udc　18/10/22 16:24
 TOKYO.sec　18/10/22 16:26
 	TYPE= TOKYO  TEST  SUB= から、TYPE= TOKYO  SUB=　へ変更
 
-Osaka.udc  現在検証中
+Osaka.udc  現在検証中　18/10/22 18:02:18
+	フォーマットの最新化で再作
+	キャリブロファイル出力の設定（CabrilloFormat = 99）
+	今年の特別局対応　JA3RL,8J3EXPO/3
 
+	ロギング　OK
+		※　RTTY,SSTVロギングの検証が未実施。
+	Telnet　OK
+	CtestWin　OK
+		※ADIF,キャリブロともに読み込み可能。
+	Mytool　NG　※　未対応のため、得点計算がNG	
+	
 Osaka.sec　18/10/22 17:22
 	今年からマルチのテールレターにXが使われるため、マルチを追加
 	府外マルチを追加。府外マルチの定義が不明確なため、可能性のあるマルチを追加
