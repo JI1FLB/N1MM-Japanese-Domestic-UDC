@@ -59,6 +59,7 @@ FrameText = SntRpt  SntNR   RcvRpt   NR
 LogInfo = SentReport, 500, SentNR, 500, ReceiveReport, 500, NR, 500, Points, 500
 
 DefaultContestExchange = 
+
 IsWorkable = 
 SpecialInstructions =
 DupeSqlString = 
@@ -84,6 +85,7 @@ CabrilloFormat = 99
 CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, Comment, 40
 GenericPrintString  = SNT, 4, SentNr, 0, CallSign, 15, RCV, 4, RcvNr, 0, Comment, 12
 GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
+
 QsoNumbersByBand = 
 DigitalModeSqlString = 
 MultipleSessions =  
