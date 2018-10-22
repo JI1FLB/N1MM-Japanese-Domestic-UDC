@@ -2,33 +2,43 @@
 AuthorName = SEIICHI TANAKA
 Callsign= JI1FLB
 Email= ji1flb at jarl.com
+
 [File]
-Revision = 1.0.1
-LastUpdate = 2017/11/4 7:38:42
-Description = Osaka Contest for Outside
+Revision = 1.1.0
+LastUpdate = 2018/10/22 16:40
+Description = Osaka Contest
+
 [Contest]
-Name = OSAKAout
-DisplayName = OSAK Aout
-CabrilloName = OSAKA-test-Out
+Name = OSAKA
+DisplayName = OSAKA
+CabrilloName = OSAKA
 Mode = BOTH
 DupeType = 2
 Multiplier1Name = Sect
-Multiplier2Name =
+Multiplier2Name = 
 Multiplier3Name = 
 MultSqlString = Section
 MultSqlString2 = 
 MultSqlString3 = 
-Period = 2
-PointsPerContact = ExchIsNotNum, 2
+Period = 1
+PointsPerContact =  ExchIsNum, 1, ExchIsNotNum, 2
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
 ShowMyCountryStations = True
 ShowWarcBands = False
-ZoneType = 
-MultWindowType = OSAKA
+ZoneType = CQ
+
+MultWindowType = Osaka
+
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints = JA3RL,2, JA3YRL,2
+BonusPoints = JA3RL,2, 8J3EXPO/3,4
 BonusPoints2 = 
-DoNotCountMeAsMult = False
+DoNotCountMeAsMult = 
 DoNotCountMeAsMult2
 DoNotCountMeAsMult3
 CountMultOnlyFor =
@@ -40,26 +50,30 @@ DoNotCountMultOnlyFor3 =
 CountMultOnlyForSec =
 CountMultOnlyForSec2 =
 CountMultOnlyForSec3 =
-MultiplierBands = 2
-QsoErrorString = Any_not_Empty
-EntryWindowInfo =SNTText, 250, RCVText, 250, Exchange1Text, 650
+
+MultiplierBands = 2 
+QsoErrorString = Osaka
+
+EntryWindowInfo =SNTText, 400, RCVText, 400, Exchange1Text, 600 
 FrameText =SntNr  RcvNr  Exchange
-LogInfo =SentReport, 300, ReceiveReport,300, Exchange1,200, Points, 50 ,Comment,200
-DefaultContestExchange =10
-GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
-GenericPrintStringHeader =Date   Time   Freq   Mode MyCall      Sent   Call      Exchange 
-IsWorkable = Any
+LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
+DefaultContestExchange = 10
+
+IsWorkable = JA,JD/o,JD/m
 SpecialInstructions =
-DupeSqlString = 0
-StartOfContest = 2, 0
-EndOfContest = 2, 0
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest =
+
 IsMultPer =  1
 IsMult1Per =
 IsMult2Per =
 IsMult3Per = 
 MinimumOffTime = 
-UsesWAECountries = False*
-SetSentTimeForContact = False*
+UsesWAECountries = False
+SetSentTimeForContact = False
 ScoreSummaryMultNames = Mul
 
 ************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
@@ -67,18 +81,30 @@ ScoreSummaryMultNames = Mul
 *  Web address for the contest rules 
 ************************************************************************************
 
-CabrilloFormat = 1
-CabrilloString = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4,, SentExch, 4,   Points,4 ,Comment, 40,
-GenericPrintString  = SNT, 4, SentNr, 4, CallSign, 13, RCV, 4, RcvNr, 4, SentExch, 4, Points,4,  Comment, 40
-GenericPrintStringHeader = Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd    Comment
-QsoNumbersByBand = 0 
-DigitalModeSqlString = False*
-MultipleSessions =  
-ResetMultsEverySession = 0*
-CabrilloVersion = 3.0
-!MultMult = 1
-!MultMult2 = 
-!MultMult3 = 
-!BandChangesPerPeriod = 10000*
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
 
-
+QsoNumbersByBand = 
+DigitalModeSqlString = False
+MultipleSessions = 
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =*
+MOBandChangeTimerDuration =*
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
