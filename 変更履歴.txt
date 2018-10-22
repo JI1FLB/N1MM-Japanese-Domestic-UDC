@@ -147,4 +147,9 @@ Tamagawa.udc　18/10/22 16:15
 Tamagawa.sec　18/10/22 16:18
 	ファイル名誤りの修正　旧：Tamamaga.sec
 	
+TOKYO.udc　18/10/22 16:24
+	QsoErrorString = SEC から　TOKYOへ変更。チェックの厳格化のため
+	新規パラメータ漏れの追加　QsoNumbersByBand = 
 	
+TOKYO.sec　18/10/22 16:26
+	TYPE= TOKYO  TEST  SUB= から、TYPE= TOKYO  SUB=　へ変更	
