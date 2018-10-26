@@ -2,51 +2,109 @@
 AuthorName= Seiichi tanaka 
 Callsign=JI1FLB
 Email=ji1flb at jarl.com
+
 [File]
-Revision = 1.0.0
-LastUpdate =16/01/11
-Description =SAITAMA
+Revision = 1.1.0 
+LastUpdate = 18/10/25 11:10
+Description = SAITAMA
+
 [Contest]
-Name =SAITAMA
-DisplayName =SAITAMA
-CabrilloName =SAITAMA
-Mode =
-Multiplier1Name =Sect
+Name = SAITAMA
+DisplayName = SAITAMA
+CabrilloName = SAITAMA-Contest
+Mode = BOTH
+DupeType = 2
+Multiplier1Name = Sect
 Multiplier2Name = 
 Multiplier3Name = 
-Period = 
-PointsPerContact = SSB, 1, CW, 2, DIGI, 0, RTTY, 0, PSK, 0, FM, 1, AM, 1
-ShowMyCountryStations =
-ShowWarcBands =
-ZoneType =
-MultSqlString =Section
-MultSqlString2 =
-MultSqlString3 =
-MultWindowType =SAITAMA
-IsMultPer = 1
-MultiplierBands =
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 1
+PointsPerContact = SSB, 1, CW, 2, FM, 1, AM, 1
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = CQ
+
+MultWindowType = SAITAMA
+
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints =
-BonusPoints2 =
-QsoErrorString =Sect
-EntryWindowInfo =SNTText, 100, RCVText, 100, Exchange1Text, 200 
-FrameText =SntNr   RcvNr  Exchange
-LogInfo =SentReport, 300, ReceiveReport,300, Exchange1,400, IsMultiplier1, 300, Points, 100 
-DefaultContestExchange =10
-GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
-GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       Sent    Call           Exchange
-IsWorkable = Any
+BonusPoints = 
+BonusPoints2 = 
+DoNotCountMeAsMult = 
+DoNotCountMeAsMult2
+DoNotCountMeAsMult3
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+
+MultiplierBands = 2
+QsoErrorString = Sect
+
+EntryWindowInfo =SNTText, 350, RCVText, 350, Exchange1Text, 615 
+FrameText =SntNr  RcvNr  Exchange
+LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
+DefaultContestExchange = 10
+
+IsWorkable = JA,JD/o,JD/m
 SpecialInstructions =
-DupeSqlString =
-StartOfContest = 1, 12
-EndOfContest = 2,12
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest =
+
 IsMultPer = 1
-MinimumOffTime =
-UsesWAECountries =
-SetSentTimeForContact =
-ScoreSummaryMultNames = SAITAMA
-WebAddress =
-DigitalModeSqlString =
-MultipleSessions =
-ResetMultsEverySession =   
+IsMult1Per =
+IsMult2Per =
+IsMult3Per = 
+MinimumOffTime = 
+UsesWAECountries = False
+SetSentTimeForContact = False
+ScoreSummaryMultNames = Mul
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = http://www.jarl-tokyo.com/
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+
+QsoNumbersByBand = 
+DigitalModeSqlString = False
+MultipleSessions = 
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =
+MOBandChangeTimerDuration =
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
