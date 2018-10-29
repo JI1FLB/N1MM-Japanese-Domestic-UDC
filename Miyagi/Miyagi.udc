@@ -39,8 +39,8 @@ NumMults = 1
 BonusPoints = 
 BonusPoints2 = 
 DoNotCountMeAsMult = 
-DoNotCountMeAsMult2
-DoNotCountMeAsMult3
+DoNotCountMeAsMult2 = 
+DoNotCountMeAsMult3 = 
 CountMultOnlyFor =
 CountMultOnlyFor2 =
 CountMultOnlyFor3 =
