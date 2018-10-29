@@ -1,0 +1,5 @@
+　　　　　　　　　　　　　　　　　　　　18/10/29 18:24:54
+　　　　　　　　留意事項
+　　　　　　　　　　　　　　　　　　　　JI1FLB/Seiichi Tanaka
+
+OM局は、同一バンドで電信、電話でそれぞれQSOポイントを計上可能であるため、DupeType = 2　をDupeType = 3　へ変更すること。
