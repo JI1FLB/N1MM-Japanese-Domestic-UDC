@@ -293,4 +293,18 @@ Shizuoka.udc　18/10/29 16:22:30
 	Mytool	NG
 		※　N1MM Logger+が5.6GHz以上のQSOポイントが1点となるため、正確に集計不可
 
+Yamaguchi.sec　18/10/29 18:21:20
+	JARL山口のHPに掲載されるマルチデータで目視点検
+
+Yamaguchi.sec　18/10/29 18:21:20
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG　※　同一バンド、異モードの局をDup処理が行われないようである。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
 
