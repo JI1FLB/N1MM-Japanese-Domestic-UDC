@@ -334,4 +334,19 @@ Akita.udc　18/10/29 21:07:38
 		　SSBとAMがPHで一つのモードに括られるため、
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
-	
+
+Aomori.sec　18/10/30 8:45:16
+	JARL青森のHPに掲載されるコンテスト規約データを基に目視点検
+
+Aomori.udc　18/10/30 8:45:16
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　Cabrilloファイルについて、正確にDup処理が行われない。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
