@@ -77,7 +77,7 @@ SetSentTimeForContact = False
 ScoreSummaryMultNames = Mul
 
 ************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
-*WebAddress = http://www.jarl-tokyo.com/
+*WebAddress = 
 *  Web address for the contest rules 
 ************************************************************************************
 
