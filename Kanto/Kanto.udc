@@ -1,17 +1,17 @@
 [Author]
-AuthorName= Seiichi tanaka 
-Callsign=JI1FLB
-Email=ji1flb at jarl.com
+AuthorName = Seiichi Tanaka
+Callsign= JI1FLB
+Email= ji1flb at jarl.com
 
 [File]
-Revision = 1.2.0 
-LastUpdate = 18/10/28 21:18
-Description = KANTOUHF
+Revision = 1.2.0
+LastUpdate= 2018/10/28 18:40
+Description = Kanto
 
 [Contest]
-Name = KANTOUHF
-DisplayName = KANTOUHF
-CabrilloName = KANTOUHF
+Name = KANTO
+DisplayName = KANTO
+CabrilloName = KANTO
 Mode = BOTH
 DupeType = 2
 Multiplier1Name = Sect
@@ -21,7 +21,7 @@ MultSqlString = Section
 MultSqlString2 = 
 MultSqlString3 = 
 Period = 1
-PointsPerContact = MyCountry, 1
+PointsPerContact = SSB, 1, CW, 1, FM, 1, AM, 1
 PointsMultAtTimeLocal = 
 PointsMultAtTimeGMT = 
 PointsMultByMode = 
@@ -32,7 +32,7 @@ ShowMyCountryStations = True
 ShowWarcBands = False
 ZoneType = CQ
 
-MultWindowType = KANTOUHF
+MultWindowType = KANTO
 
 CQZoneMultContest = False
 NumMults = 1
