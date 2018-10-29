@@ -307,4 +307,17 @@ Yamaguchi.sec　18/10/29 18:21:20
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
 
+AI.sec
+	目視点検
+
+AI.sec
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG　※　Dup処理が行われないようである。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
 
