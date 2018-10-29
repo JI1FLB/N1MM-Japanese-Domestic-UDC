@@ -307,10 +307,10 @@ Yamaguchi.sec　18/10/29 18:21:20
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
 
-AI.sec
+AI.sec　18/10/29 20:37:09
 	目視点検
 
-AI.sec
+AI.sec18/10/29 20:37:15
 	現行フォーマットに合わせて、再作
 
 	ロギング　OK
@@ -321,3 +321,17 @@ AI.sec
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
 
+Akita.sec　18/10/29 20:37:24
+	JARL　秋田のHPに掲載されるコンテスト規約で目視点検
+
+Akita.udc　18/10/29 21:07:38
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG　※　Dup処理が行われないようである。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+	
