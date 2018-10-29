@@ -1,63 +1,94 @@
 [Author]
-AuthorName=Seiichi Tanaka
+AuthorName= Seiichi Tanaka 
 Callsign=JI1FLB
 Email=ji1flb at jarl.com
+
 [File]
-Revision = 1.0.0
-LastUpdate = 2018/09/09 9:32 
-Description =ALL Akita Contest
+Revision = 1.1.0 
+LastUpdate = 18/10/25 11:10
+Description = AKITA
+
 [Contest]
-Name =Akita
-DisplayName =ALL Akita Contest
-CabrilloName =Akita
+Name = AKITA
+DisplayName = AKITA
+CabrilloName = AKITA
 Mode = BOTH
 DupeType = 2
-Multiplier1Name =Sect
+Multiplier1Name = Sect
 Multiplier2Name = 
 Multiplier3Name = 
-Period = 1
-PointsPerContact =1
-ShowMyCountryStations =
-ShowWarcBands =
-ZoneType =
-MultSqlString =Section
-MultSqlString2 =
-MultSqlString3 =
-MultWindowType =Akita
-IsMultPer = 1
-MultiplierBands =
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 2
+PointsPerContact = 1
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = CQ
+
+MultWindowType = AKITA
+
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints =
+BonusPoints = 
 BonusPoints2 = 
-QsoErrorString =Sect
-EntryWindowInfo =SNTText, 200, RCVText, 200, Exchange1Text, 400 
-FrameText =SntNr   RcvNr  Exchange
-LogInfo =SentReport, 100, ReceiveReport,100, Exchange1,200, IsMultiplier1, 200, Points, 100 
-DefaultContestExchange =10
-GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
-GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       Sent    Call           Exchange
+DoNotCountMeAsMult = False
+DoNotCountMeAsMult2 = 
+DoNotCountMeAsMult3 = 
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+
+MultiplierBands = 2
+QsoErrorString = Sect
+
+EntryWindowInfo =SNTText, 350, RCVText, 350, Exchange1Text, 615 
+FrameText =SntNr  RcvNr  Exchange
+LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
+DefaultContestExchange = 10
 
 IsWorkable = JA,JD/o,JD/m
 SpecialInstructions =
-DupeSqlString = 0
-StartOfContest = 1, 12
-EndOfContest = 2, 3
-IsMultPer = 3
-IsMult1Per = 1
-IsMult2Per = 
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest =
+
+IsMultPer = 1
+IsMult1Per =
+IsMult2Per =
 IsMult3Per = 
 MinimumOffTime = 
 UsesWAECountries = False
 SetSentTimeForContact = False
-ScoreSummaryMultNames = Sec
-CabrilloFormat = 99
+ScoreSummaryMultNames = Mul
 
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = 
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
 CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
 GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
 GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+
+QsoNumbersByBand = 
 DigitalModeSqlString = False
-MultipleSessions =  
+MultipleSessions = 
 ResetMultsEverySession =
 ResetSNEverySession = 
 CabrilloVersion = 2.0
@@ -72,8 +103,8 @@ SOBandChangeCountMax =
 MOBandChangeCountMax = 
 CountBandChangesPerContest = False
 CountBandChangesPerPeriod = False
-SOBandChangeTimerDuration =*
-MOBandChangeTimerDuration =*
+SOBandChangeTimerDuration =
+MOBandChangeTimerDuration =
 UsesLASTEXCHmacro = False
 DupeQSOMinutesAgo =
 PowerMult = 1
