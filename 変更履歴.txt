@@ -213,3 +213,53 @@ NYP.udc　18/10/27 18:47:26
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	NG
 		※　現状、QSOパーティに未対応のため
+
+KantoUHF.sec　18/10/28 21:41:09
+	2018　ACAG用secファイルと比較
+
+Kanto.sec　18/10/28 21:41:09
+	KantoUHF.secをリネームして作成
+	2018　ACAG用secファイルと比較
+
+kantoUHF.udc　18/10/28 21:41:09
+	現行フォーマットに合わせて、再作
+
+	【重要】現行フォーマットに合わせると、動作しなくなったため、
+	　　PointsPerContact = MyCountry, 1と変更して動作するようにした。
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　OK
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
+Kanto.udc　18/10/28 21:41:09
+	KantoUHF.udcが現行フォーマットに合わせて再作したところ、動作しなかった。
+	このため、いろいろカットアンドトライした結果、
+	ファイル内のパラメータをKantoと変更して動作するようになった。
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　OK
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
+Daitoshi.sec　18/10/29 9:06:54
+	SECファイル内容のチェック
+	
+		富士市　1813　の削除
+
+Daitoshi.udc　18/10/29 10:28:00
+		現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　OK
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
