@@ -39,8 +39,8 @@ NumMults = 1
 BonusPoints = 
 BonusPoints2 = 
 DoNotCountMeAsMult = 
-DoNotCountMeAsMult2
-DoNotCountMeAsMult3
+DoNotCountMeAsMult2 = 
+DoNotCountMeAsMult3 = 
 CountMultOnlyFor =
 CountMultOnlyFor2 =
 CountMultOnlyFor3 =
@@ -77,7 +77,7 @@ SetSentTimeForContact =
 ScoreSummaryMultNames = Sec
 
 ************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
-*WebAddress = http:www.srr.ruCONTESTcup_raem_engl_08.php
+*WebAddress = 
 *  Web address for the contest rules 
 ************************************************************************************
 
