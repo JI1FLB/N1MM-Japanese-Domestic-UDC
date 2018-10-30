@@ -386,8 +386,25 @@ Furusato.udc　18/10/30 16:16:52
 	ロギング　OK
 	Telnet　OK
 	Ctestwin　NG
-		※　ACabrilloファイルはDup処理が行われない。
+		※　CabrilloファイルはDup処理が行われない。
 		※　ファイルのインポートは、CARIBROファイルでは、
 		　SSBとAMがPHで一つのモードに括られるため、
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
+
+Gifu.sec　18/10/30 18:17:11
+	ACAG用secファイルを基に目視点検
+
+Gifu.udc　18/10/30 18:17:11
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　CabrilloファイルはDup処理が行われない。
+		※　ADIFファイルは正しくDup処理が出来ない。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
