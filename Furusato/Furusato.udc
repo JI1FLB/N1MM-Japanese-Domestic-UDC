@@ -1,63 +1,94 @@
 [Author]
-AuthorName=Seiichi Tanaka
-Callsign=JI1FLB
-Email=ji1flb at jarl.com
+AuthorName= Seiichi Tanaka
+Callsign= JI1FLB
+Email= ji1flb at jarl.com
+
 [File]
-Revision = 1.0.0
-LastUpdate = 18/09/21 19:23
-Description =Furusato Contest
+Revision = 1.1.0
+LastUpdate = 18/10/30 15:46
+Description = Furusato
+
 [Contest]
-Name =Furusato
-DisplayName =Furusato Contest
-CabrilloName =Furusato
+Name = Furusato
+DisplayName = Furusato
+CabrilloName = Furusato
 Mode = BOTH
 DupeType = 2
-Multiplier1Name =Comment
+Multiplier1Name = Comment
 Multiplier2Name = 
 Multiplier3Name = 
+MultSqlString = Comment
+MultSqlString2 = 
+MultSqlString3 = 
 Period = 1
-PointsPerContact =1
-ShowMyCountryStations =
-ShowWarcBands =
-ZoneType =
-MultSqlString =Comment
-MultSqlString2 =
-MultSqlString3 =
-MultWindowType =Furusato
-IsMultPer = 1
-MultiplierBands =
+PointsPerContact = 1
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = CQ
+
+MultWindowType = Furusato
+
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints =
+BonusPoints = 
 BonusPoints2 = 
-QsoErrorString = 
+DoNotCountMeAsMult = False
+DoNotCountMeAsMult2 = 
+DoNotCountMeAsMult3 = 
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+
+MultiplierBands = 2
+QsoErrorString = Any_not_Empty
+
 EntryWindowInfo =SNTText, 200, RCVText, 200, CommentText,600
 FrameText =SntNr   RcvNr  CommentText
 LogInfo =SentReport, 100, ReceiveReport,100, Comment,600, IsMultiplier1, 200, Points, 100
-DefaultContestExchange =10
-GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, CommentTextt, 18
-GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       Sent    Call           CommentText
+
+DefaultContestExchange = 10
 
 IsWorkable = JA,JD/o,JD/m
 SpecialInstructions =
-DupeSqlString = 0
-StartOfContest = 1, 12
-EndOfContest = 2, 3
-IsMultPer = 3
-IsMult1Per = 1
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest = 
+
+IsMultPer = 1
+IsMult1Per = 
 IsMult2Per = 
 IsMult3Per = 
 MinimumOffTime = 
 UsesWAECountries = False
 SetSentTimeForContact = False
-ScoreSummaryMultNames = Multi
-CabrilloFormat = 99
+ScoreSummaryMultNames = Mul
 
-CabrilloString = SNT, 4, SentExch, 18, CallSign, 13, RCV, 4, CommentText, 18
-GenericPrintString  = SNT, 4, SentExch, 18, CallSign, 13, RCV, 4, CommentText, 18
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = 
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 18, CallSign, 13, RCV, 4, Comment, 18
+GenericPrintString  = SNT, 4, SentExch, 18, CallSign, 13, RCV, 4, Comment, 18
 GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd  Multi
+
+QsoNumbersByBand = 
 DigitalModeSqlString = False
-MultipleSessions =  
+MultipleSessions = 
 ResetMultsEverySession =
 ResetSNEverySession = 
 CabrilloVersion = 2.0
@@ -72,8 +103,8 @@ SOBandChangeCountMax =
 MOBandChangeCountMax = 
 CountBandChangesPerContest = False
 CountBandChangesPerPeriod = False
-SOBandChangeTimerDuration =*
-MOBandChangeTimerDuration =*
+SOBandChangeTimerDuration =
+MOBandChangeTimerDuration =
 UsesLASTEXCHmacro = False
 DupeQSOMinutesAgo =
 PowerMult = 1
