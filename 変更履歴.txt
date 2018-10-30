@@ -350,3 +350,44 @@ Aomori.udc　18/10/30 8:45:16
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
 
+Birthday.sec　18/10/30 12:03:49
+	目視点検
+
+Birthday.udc　18/10/30 12:03:49
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　CabrilloファイルはDup処理が行われない。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
+Fukuoka.sec　18/10/30 15:24:06
+	ACAG用データを基に、目視点検
+
+Fukuoka.udc　18/10/30 15:24:06
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　ADIFファイル、CabrilloファイルはDup処理が行われない。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
+Furusato.udc　18/10/30 16:16:52
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　ACabrilloファイルはDup処理が行われない。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
