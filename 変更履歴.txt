@@ -459,3 +459,12 @@ Kanakaga.sec　18/10/31 11:18:59
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
 
+KCJ.sec　18/10/31 13:15:04
+	KCJのHPを基に、目視点検。データの修正を行う。
+
+KCJ.sec　18/10/31 13:15:04
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　OK
+	Mytool	OK
+
