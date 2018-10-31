@@ -1,51 +1,110 @@
 [Author]
-AuthorName=$Author: makoto $
-Callsign=JA1XMS
-Email= 
+AuthorName= Seiichi Tanaka
+Callsign= JI1FLB
+Email= ji1flb at jarl.com
+
 [File]
-Revision =$Revision: 1.3 $
-LastUpdate =$Date: 2011/02/08 05:15:07 $ UTC
-Description =KCJ, Pref(or Continent) as exchange.
+Revision = 1.1.0 
+LastUpdate = 18/10/31 12:16
+Description = KCJ
+
 [Contest]
-Name =KCJ-JA
-DisplayName =KCJ for JA Station
-CabrilloName =KCJ-JA
-Mode =CW
-Multiplier1Name =Sect
+Name = KCJ
+DisplayName = KCJ
+CabrilloName = KCJ
+Mode = CW
+DupeType = 2
+Multiplier1Name = Sect
 Multiplier2Name = 
 Multiplier3Name = 
-Period = 
-PointsPerContact =JA, 1, SameContinent, 5, OtherContinent, 5
-ShowMyCountryStations =
-ShowWarcBands =
-ZoneType =
-MultSqlString =Section
-MultSqlString2 =
-MultSqlString3 =
-MultWindowType =KCJ
-IsMultPer = 1
-MultiplierBands =
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 2
+PointsPerContact = JA, 1,JD1/m, 1, JD1/o, 1, SameContinent, 5, OtherContinent, 5
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = CQ
+
+MultWindowType = KCJ
+
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints =
-QsoErrorString =Sect
-EntryWindowInfo =SNTText, 450, RCVText, 500, Exchange1Text, 500 
-FrameText =SntNr   RcvNr  Exchange
-LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 
-DefaultContestExchange =TK
-GenericPrintString =SentNr, 4, SentExchPart2, 4, CallSign, 15, RcvNr, 4, Exchange1, 4
-GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       Sent    Call           Exchange
+BonusPoints = 
+BonusPoints2 = 
+DoNotCountMeAsMult = False
+DoNotCountMeAsMult2 = 
+DoNotCountMeAsMult3 = 
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+
+MultiplierBands = 2
+QsoErrorString = Sect
+
+EntryWindowInfo = SNTText, 350, RCVText, 350, Exchange1Text, 615 
+FrameText = SntNr  RcvNr  Exchange
+LogInfo = SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
+DefaultContestExchange = TY
+
 IsWorkable = Any
-SpecialInstructions =
-DupeSqlString =
-StartOfContest = 1, 12
-EndOfContest = 2,12
+SpecialInstructions = 
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest = 
+
 IsMultPer = 1
-MinimumOffTime =
-UsesWAECountries =
-SetSentTimeForContact =
-ScoreSummaryMultNames = KCJ
-WebAddress =http://www.kcj-cw.com/j_index.htm
-DigitalModeSqlString =
-MultipleSessions =
-ResetMultsEverySession =   
+IsMult1Per = 
+IsMult2Per = 
+IsMult3Per = 
+MinimumOffTime = 
+UsesWAECountries = False
+SetSentTimeForContact = False
+ScoreSummaryMultNames = Mul
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = 
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+
+QsoNumbersByBand = 
+DigitalModeSqlString = False
+MultipleSessions = 
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =
+MOBandChangeTimerDuration =
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
