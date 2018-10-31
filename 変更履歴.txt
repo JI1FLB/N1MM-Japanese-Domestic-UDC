@@ -466,5 +466,8 @@ KCJ.sec　18/10/31 13:15:04
 	ロギング　OK
 	Telnet　OK
 	Ctestwin　OK
-	Mytool	OK
+	Mytool	NG
+		※　JD1/m、JD1/oの得点はADIFファイルの得点パラメータに5点と
+		計上されるために正しく計算できない。
+
 
