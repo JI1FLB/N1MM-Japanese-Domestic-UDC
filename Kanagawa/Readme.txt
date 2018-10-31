@@ -13,3 +13,8 @@ kanagawa.sec	県内局用のSECファイル
 
 kana-out.udc	県外局用のUDCファイル
 kana-out.sec	県外局用のSECファイル
+
+4.変更履歴
+18/10/31 11:10:18
+県外局用のUDC,SECファイルを廃止
+
