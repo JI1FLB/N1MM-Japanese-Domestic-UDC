@@ -442,11 +442,11 @@ Kagoshima.sec　18/10/31 9:36:04
 	Mytool	NG
 		※　県人局のマルチプリフィックスKJに対応していないため
 
-Kanakaga.sec　18/10/31 11:18:59
+Kanagawa.sec　18/10/31 11:18:59
 	JARL神奈川のHPに基づき目視点検
 	沖ノ鳥島、南鳥島、硫黄島は小笠原の区域に含める
 
-Kanakaga.sec　18/10/31 11:18:59
+Kanagawa.udc　18/10/31 11:18:59
 	現行フォーマットに合わせて、再作
 
 	ロギング　OK
@@ -492,3 +492,37 @@ Yamanashi.udc　18/10/31 18:43:42
 	Ctestwin　OK
 	Mytool	OK
 
+XPO.sec　18/10/31 19:25:31
+	目視点検
+
+XPO.udc　18/10/31 19:25:38
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　CabrilloファイルはDup処理が行われない。
+		※　ADIFファイルは正しくDup処理を行われている。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
+UEC.sec　18/10/31 21:39:53
+	目視点検
+
+UEC.udc　18/10/31 21:39:53
+	現行フォーマットに合わせて、再作
+
+	ロギング　NG
+		※　電通大コンテストのUEC,H,L,Iのマルチに対応できないため、
+		　得点を正確に集計できない。
+	Telnet　OK
+	Ctestwin　NG
+		※　CabrilloファイルはDup処理が行われない。
+		※　ADIFファイルは正しくDup処理を行われている。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	NG
+		※　N1MM Logger+が得点を処理できないため。
