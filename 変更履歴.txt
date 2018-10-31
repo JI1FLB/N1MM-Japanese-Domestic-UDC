@@ -408,11 +408,11 @@ Gifu.udc　18/10/30 18:17:11
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
 
-JA1.sec
+JA1.sec　18/10/31 9:35:36
 	ACAG用データと比較
 		※　上都賀郡の削除
 
-JA1.udc
+JA1.udc　18/10/31 9:35:36
 	現行フォーマットに合わせて、再作
 
 	ロギング　OK
@@ -424,4 +424,21 @@ JA1.udc
 		　SSBとAMがPHで一つのモードに括られるため、
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
+
+Kagoshima.sec　18/10/31 9:36:04
+	JARL HPのJCC/JCG情報を基に目視点検
+
+Kagoshima.sec　18/10/31 9:36:04
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　CabrilloファイルはDup処理が行われない。
+		※　ADIFファイルは正しくDup処理を行われている。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	NG
+		※　県人局のマルチプリフィックスKJに対応していないため
 
