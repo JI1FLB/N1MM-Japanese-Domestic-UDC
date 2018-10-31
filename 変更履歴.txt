@@ -442,3 +442,20 @@ Kagoshima.sec　18/10/31 9:36:04
 	Mytool	NG
 		※　県人局のマルチプリフィックスKJに対応していないため
 
+Kanakaga.sec　18/10/31 11:18:59
+	JARL神奈川のHPに基づき目視点検
+	沖ノ鳥島、南鳥島、硫黄島は小笠原の区域に含める
+
+Kanakaga.sec　18/10/31 11:18:59
+	現行フォーマットに合わせて、再作
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+		※　CabrilloファイルはDup処理が行われない。
+		※　ADIFファイルは正しくDup処理を行われている。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+
