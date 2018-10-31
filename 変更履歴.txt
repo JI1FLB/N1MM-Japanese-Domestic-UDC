@@ -526,3 +526,14 @@ UEC.udc　18/10/31 21:39:53
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	NG
 		※　N1MM Logger+が得点を処理できないため。
+
+KCWA.sec　18/11/01 8:07:40
+	このファイルはKCJ.secより海外マルチを削除して作成。
+
+KCWA.udec　18/11/01 8:07:40
+	現行フォーマットに合わせて、新規に作成
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　NG
+	Mytool	OK
