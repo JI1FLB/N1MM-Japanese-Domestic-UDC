@@ -1,81 +1,101 @@
-[Author] section
-AuthorName = Seiichi Tanaka
+[Author]
+AuthorName= Seiichi Tanaka
 Callsign= JI1FLB
 Email= ji1flb at jarl.com
-[File] section
-Revision = 1.1.0 
-LastUpdate = 2018/06/09 16:55
-Description = Yamanashi Contest
-[Contest] 
-Name = Yamanashi
-DisplayName = Yamanashi
-CabrilloName = Yamanashi
+
+[File]
+Revision = 1.2.0 
+LastUpdate = 2018/10/31 18:28
+Description = YAMANASHI
+
+[Contest]
+Name = YAMANASHI
+DisplayName = YAMANASHI
+CabrilloName = YAMANASHI
 Mode = BOTH
-DupeType = 2
+DupeType = 3
 Multiplier1Name = Sect
-Multiplier2Name =
-Multiplier3Name =
-MultSqlString =Section
-MultSqlString2 =
-MultSqlString3 =
-Period = 2
-PointsPerContact = 1,SectIs_1701,3,SectIs_1702,3,SectIs_1704,3,SectIs_1705,3,SectIs_1706,3,SectIs_1707,3,SectIs_1708,3,SectIs_1709,3,SectIs_1710,3,SectIs_1711,3,SectIs_1712,3,SectIs_1713,3,SectIs_1714,3,SectIs_17002,3,SectIs_17003,3,SectIs_17004,3,SectIs_17007,3,SectIs_17008,3
-PointsMultAtTimeLocal =
-PointsMultAtTimeGMT =
+Multiplier2Name = 
+Multiplier3Name = 
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 1
+PointsPerContact = SectIs_1701,3,SectIs_1702,3,SectIs_1704,3,SectIs_1705,3,SectIs_1706,3,SectIs_1707,3,SectIs_1708,3,SectIs_1709,3,SectIs_1710,3,SectIs_1711,3,SectIs_1712,3,SectIs_1713,3,SectIs_1714,3,SectIs_17002,3,SectIs_17003,3,SectIs_17004,3,SectIs_17007,3,SectIs_17008,3,ExchIsNum, 1
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
 PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
 ShowMyCountryStations = True
 ShowWarcBands = False
-ZoneType = 
-MultWindowType = Yamanashi
+ZoneType = CQ
+
+MultWindowType = YAMANASHI
+
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints =
+BonusPoints = 
 BonusPoints2 = 
 DoNotCountMeAsMult = False
-DoNotCountMeAsMult2
-DoNotCountMeAsMult3
-CountMultOnlyFor =
-CountMultOnlyFor2 =
-CountMultOnlyFor3 =
-DoNotCountMultOnlyFor =
-DoNotCountMultOnlyFor2 =
-DoNotCountMultOnlyFor3 =
-CountMultOnlyForSec =
-CountMultOnlyForSec2 =
-CountMultOnlyForSec3 =
-MultiplierBands = 3 
-QsoErrorString = 
+DoNotCountMeAsMult2 = 
+DoNotCountMeAsMult3 = 
+CountMultOnlyFor = 
+CountMultOnlyFor2 = 
+CountMultOnlyFor3 = 
+DoNotCountMultOnlyFor = 
+DoNotCountMultOnlyFor2 = 
+DoNotCountMultOnlyFor3 = 
+CountMultOnlyForSec = 
+CountMultOnlyForSec2 = 
+CountMultOnlyForSec3 = 
 
-EntryWindowInfo = SNTText, 200, RCVText, 200, Exchange1Text, 400
-FrameText =SntNr  RcvNr  Exchange
-LogInfo = SentReport, 200, ReceiveReport,200, Exchange1,300, Points, 50 
-DefaultContestExchange =10
+MultiplierBands = 2
+QsoErrorString = Sect
+
+EntryWindowInfo = SNTText, 350, RCVText, 350, Exchange1Text, 615 
+FrameText = SntNr  RcvNr  Exchange
+LogInfo = SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
+DefaultContestExchange = 10
 
 IsWorkable = JA,JD/o,JD/m
-SpecialInstructions =
-DupeSqlString = 0
-IsMultPer = 3
-IsMult1Per = 1
+SpecialInstructions = 
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest = 
+
+IsMultPer = 1
+IsMult1Per = 
 IsMult2Per = 
 IsMult3Per = 
 MinimumOffTime = 
 UsesWAECountries = False
 SetSentTimeForContact = False
-ScoreSummaryMultNames = Sec
-CabrilloFormat = 99
+ScoreSummaryMultNames = Mul
 
-CabrilloString = SNT, 4, SentExch, 7, CallSign, 13, RCV, 4, Exchange1, 7
-GenericPrintString  = SNT, 4, SentExch, 7, CallSign, 13, RCV, 4, Exchange1, 7
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = 
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
 GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+
+QsoNumbersByBand = 
 DigitalModeSqlString = False
-MultipleSessions =  
-ResetMultsEverySession =
+MultipleSessions = 
+ResetMultsEverySession = 
 ResetSNEverySession = 
 CabrilloVersion = 2.0
 MultMult = 
-MultMult2 =
-MultMult3 =
-BandChangesPerPeriod = 10000 
+MultMult2 = 
+MultMult3 = 
+BandChangesPerPeriod = 10000
 SingleOpCountableBandChange = False
 MultiOpCountableBandChange = False
 CountBandOrModeChange = False
@@ -83,8 +103,8 @@ SOBandChangeCountMax =
 MOBandChangeCountMax = 
 CountBandChangesPerContest = False
 CountBandChangesPerPeriod = False
-SOBandChangeTimerDuration =*
-MOBandChangeTimerDuration =*
+SOBandChangeTimerDuration = 
+MOBandChangeTimerDuration = 
 UsesLASTEXCHmacro = False
-DupeQSOMinutesAgo =
+DupeQSOMinutesAgo = 
 PowerMult = 1
