@@ -537,3 +537,19 @@ KCWA.udec　18/11/01 8:07:40
 	Telnet　OK
 	Ctestwin　NG
 	Mytool	OK
+
+Kumamoto.sec　18/11/01 12:47:58
+	新規作成
+
+Kumamoto.udc　18/11/01 12:47:58
+	現行フォーマットで新規作成
+
+	ロギング　NOK
+	Telnet　OK
+	Ctestwin　NG
+		※　CabrilloファイルはDup処理が行われない。
+		※　ADIFファイルは電話・電信で各々ポイントとなるが、Dup処理される。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
