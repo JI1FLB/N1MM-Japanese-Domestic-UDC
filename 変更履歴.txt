@@ -544,7 +544,7 @@ Kumamoto.sec　18/11/01 12:47:58
 Kumamoto.udc　18/11/01 12:47:58
 	現行フォーマットで新規作成
 
-	ロギング　NOK
+	ロギング　OK
 	Telnet　OK
 	Ctestwin　NG
 		※　CabrilloファイルはDup処理が行われない。
@@ -553,3 +553,22 @@ Kumamoto.udc　18/11/01 12:47:58
 		　SSBとAMがPHで一つのモードに括られるため、
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
+
+QRP_CLUB.sec　18/11/05 16:01:57
+	新規作成
+	※　QRP Clubコンテストは、モード別にポイント加算可能であるため、
+	　JADOMESICでは対応できなたいめに、SECファイルを作成
+
+QRP_CLUB.udc　18/11/05 16:01:57
+	新規作成
+	※　QRP Clubコンテストは、モード別にポイント加算可能であるため、
+	　JADOMESICでは対応できなたいめに、UDCファイルを作成
+
+	ロギング　OK
+	Telnet　OK
+	Ctestwin　OK
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
+			
