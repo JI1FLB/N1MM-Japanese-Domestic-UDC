@@ -12,7 +12,7 @@ Description = AM
 Name = AM
 DisplayName = AM
 CabrilloName = AM
-Mode = BOTH
+Mode = SSB
 DupeType = 2
 Multiplier1Name = Sect
 Multiplier2Name = 
@@ -51,7 +51,7 @@ CountMultOnlyForSec =
 CountMultOnlyForSec2 = 
 CountMultOnlyForSec3 = 
 
-MultiplierBands = 2
+MultiplierBands = 3
 QsoErrorString = Sect
 
 EntryWindowInfo = SNTText, 350, RCVText, 350, Exchange1Text, 615 
