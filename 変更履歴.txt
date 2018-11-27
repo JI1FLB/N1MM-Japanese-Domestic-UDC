@@ -589,3 +589,18 @@ AM.udc　18/11/19 16:28:08
 		　SSBとAMがPHで一つのモードに括られるため、
 		　ADIFファイルを読み込みことを進めます。
 	Mytool	OK
+
+
+Hyogo.sec　18/11/27 19:42:40
+	新規作成
+
+Hyogo.udc　18/11/27 19:42:40
+	ロギング　OK
+	RBN/Telnet　OK
+	Ctestwin　NG
+		※　ADIFファイルのインポートはOK
+		※　Caribloファイルのインポートでは、Dupeを判定しない。
+		※　ファイルのインポートは、CARIBROファイルでは、
+		　SSBとAMがPHで一つのモードに括られるため、
+		　ADIFファイルを読み込みことを進めます。
+	Mytool	OK
