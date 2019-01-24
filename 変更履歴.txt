@@ -613,3 +613,16 @@ Miyagi.sec　18/12/20 10:21:45
 Saitama.sec　18/12/20 10:57:07
 	不要マルチ49,50を削除
 
+
+WAS.udc WAS.sec 19/01/24 18:03
+	広島WASコンテスト用UDCファイルの新規作成
+	【重要事項】　マルチウインドウは絶対に開けないでください。
+	
+	ロギング　OK
+	RBN/Telnet　OK
+	Ctestwin　OK
+		※　ADIFファイルのインポートはOK
+		※　CaribloファイルのインポートOK
+	Mytool	OK
+	
+
