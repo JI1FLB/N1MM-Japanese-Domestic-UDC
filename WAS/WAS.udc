@@ -4,8 +4,8 @@ Callsign= JI1FLB
 Email= ji1flb at jarl.com
 
 [File]
-Revision = 1.0.0 
-LastUpdate = 19/01/24 16:58
+Revision = 1.0.1 
+LastUpdate = 19/01/25 07:58
 Description = Hiroshima_WAS
 
 [Contest]
@@ -52,7 +52,7 @@ CountMultOnlyForSec2 =
 CountMultOnlyForSec3 =
 
 MultiplierBands = 2
-QsoErrorString = Sect
+QsoErrorString = 
 
 EntryWindowInfo =SNTText, 350, RCVText, 350, Exchange1Text, 615 
 FrameText =SntNr  RcvNr  Exchange
@@ -60,7 +60,7 @@ LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, 
 
 DefaultContestExchange = PM95
 
-IsWorkable = JA,JD/o,JD/m
+IsWorkable = Any
 SpecialInstructions =
 DupeSqlString = 1
 
