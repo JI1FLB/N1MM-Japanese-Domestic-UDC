@@ -628,7 +628,7 @@ WAS.udc WAS.sec 19/01/24 18:03
 
 WAS.udc WAS.sec 19/01/25 7:57
 	WAS.udc
-		1)[QsoErrorString = Sect] を[QsoErrorString = ]へ変更して、Exchangeのチェックを外す。
+		1)[QsoErrorString = WAS] を[QsoErrorString = ]へ変更して、Exchangeのチェックを外す。
 		2)[IsWorkable = JA,JD/o,JD/m]を[IsWorkable = Any]へ変更し、諸外国とのQSOを可能とする。
 	
 	WAS.sec
