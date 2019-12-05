@@ -58,7 +58,7 @@ EntryWindowInfo = SNTText, 350, SntNrText, 350, RCVText, 350, Exchange1Text, 350
 FrameText = SntRST  SntNr  RCVRST  KCJ  RcvNr
 LogInfo = SentReport, 350, SentNR, 350,ReceiveReport,350, Exchange1,350, NR, 350, IsMultiplier1, 100, Points, 100 ,Comment,200
 
-DefaultContestExchange = TY
+DefaultContestExchange = TK
 
 IsWorkable = JA,JD/o,JD/m
 SpecialInstructions = 
