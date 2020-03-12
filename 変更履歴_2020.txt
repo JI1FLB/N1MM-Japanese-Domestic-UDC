@@ -1,0 +1,8 @@
+★☆★　変更履歴　★☆★
+
+JA4.udc JA4.sec		新規作成	20/03/12 13:00
+	ロギング：OK　
+	Telnet接続：OK
+	Ctestwin インポート：OK
+		※CtestWinはモードが異なると得点とするたため、得点が異なる。例えば、N1MM Logger+ではSSBのQSOに続き、FMのQSOを行った場合には後者をDupeQSOと判定する。したがって、N1MM Logger+のADIFファイルをCtestWinでインポートすると得点が異なる。
+	Mytool：OK
