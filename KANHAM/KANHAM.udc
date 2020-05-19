@@ -1,0 +1,110 @@
+﻿[Author]
+AuthorName = SEIICHI TANAKA
+Callsign= JI1FLB
+Email= ji1flb at jarl.com
+
+[File]
+Revision = 1.0.0
+LastUpdate = 20/05/19 10:51
+Description = KANHAMA Contest
+
+[Contest]
+Name = KANHAM
+DisplayName = KANHAM
+CabrilloName = KANHAM
+Mode = BOTH
+DupeType = 2
+Multiplier1Name = Sect
+Multiplier2Name =
+Multiplier3Name = 
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 1
+PointsPerContact =SectIs_101Y,5,SectIs_102Y,5,SectIs_103Y,5,SectIs_104Y,5,SectIs_105Y,5,SectIs_106Y,5,SectIs_107Y,5,SectIs_108Y,5,SectIs_109Y,5,SectIs_110Y,5,SectIs_111Y,5,SectIs_112Y,5,SectIs_113Y,5,SectIs_114Y,5,SectIs_02Y,5,SectIs_03Y,5,SectIs_04Y,5,SectIs_05Y,5,SectIs_06Y,5,SectIs_07Y,5,SectIs_08Y,5,SectIs_09Y,5,SectIs_10Y,5,SectIs_11Y,5,SectIs_12Y,5,SectIs_13Y,5,SectIs_14Y,5,SectIs_15Y,5,SectIs_16Y,5,SectIs_17Y,5,SectIs_18Y,5,SectIs_19Y,5,SectIs_20Y,5,SectIs_21Y,5,SectIs_22Y,5,SectIs_23Y,5,SectIs_24Y,5,SectIs_25Y,5,SectIs_26Y,5,SectIs_27Y,5,SectIs_28Y,5,SectIs_29Y,5,SectIs_30Y,5,SectIs_31Y,5,SectIs_32Y,5,SectIs_33Y,5,SectIs_34Y,5,SectIs_35Y,5,SectIs_36Y,5,SectIs_37Y,5,SectIs_38Y,5,SectIs_39Y,5,SectIs_40Y,5,SectIs_41Y,5,SectIs_42Y,5,SectIs_43Y,5,SectIs_44Y,5,SectIs_45Y,5,SectIs_46Y,5,SectIs_47Y,5,SectIs_48Y,5,SectIs_49Y,5,SectIs_50Y,5,SectIs_Y,5, 1, SameContinent, 1, OtherContinent, 1, ExchIsNum,1
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = 
+
+MultWindowType = KANHAM
+
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints =
+BonusPoints2 =
+DoNotCountMeAsMult = False
+DoNotCountMeAsMult2
+DoNotCountMeAsMult3
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+
+MultiplierBands = 2
+QsoErrorString = 
+
+EntryWindowInfo =SNTText, 450, RCVText, 500, Exchange1Text, 500 
+FrameText =SntNr  RcvNr  Exchange
+LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
+DefaultContestExchange =10
+
+IsWorkable =
+SpecialInstructions =
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest =
+
+IsMultPer =  1
+IsMult1Per =
+IsMult2Per =
+IsMult3Per = 
+MinimumOffTime = 
+UsesWAECountries = False
+SetSentTimeForContact = False
+ScoreSummaryMultNames = Mul
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = 
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+
+QsoNumbersByBand = 
+DigitalModeSqlString = False
+MultipleSessions = 
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =*
+MOBandChangeTimerDuration =*
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
