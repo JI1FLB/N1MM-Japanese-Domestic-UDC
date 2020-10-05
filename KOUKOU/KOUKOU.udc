@@ -1,0 +1,57 @@
+[Author]
+AuthorName=MAKOTO
+Callsign=JH1ASG
+Email=jh1asg@jarl.com
+[File]
+Revision =1.0.0
+LastUpdate =2020/09/27
+Description =RST + Sect (Numeric value or Alphabet. Comment should not be longer than 9 characters! Comment is multiplier.) + C/HS
+[Contest]
+Name =KOUKOU
+DisplayName =KOUKOU
+CabrilloName =KOUKOU
+Mode =BOTH
+DupeType =3
+Multiplier1Name = Sect
+Multiplier2Name =
+Multiplier3Name =
+Period =
+PointsPerContact = SSB, 1, CW, 3, AM, 1, FM, 1
+ShowMyCountryStations =
+ShowWarcBands =
+ZoneType =
+MultSqlString = Section
+MultSqlString2 =
+MultSqlString3 =
+MultWindowType = KOUKOU
+IsMultPer =1 
+MultiplierBands =
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints =
+
+
+QsoErrorString = Sect
+EntryWindowInfo = SNTText, 450, RCVText, 450, Exchange1Text, 700
+FrameText =Snt   Rcv   Exch
+LogInfo = SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 
+DefaultContestExchange = 10C
+
+CabrilloFormat = 99
+CabrilloString= SNT, 4,      SentExch, 6, CallSign, 13, RCV, 3, Exchange1, 6, Multiplier1, 4, Points, 2
+GenericPrintString = SNT, 4, SentExch, 6, CallSign, 13, RCV, 3, Exchange1, 6, Points, 4,Multiplier1, 4
+GenericPrintStringHeader = Date     Time     Freq Mode MyCall       RST Sent    Call        RST Exchange Pts Multi 
+
+IsWorkable = ANY
+SpecialInstructions =
+DupeSqlString =
+StartOfContest =
+EndOfContest =
+MinimumOffTime =
+UsesWAECountries =
+SetSentTimeForContact =
+ScoreSummaryMultNames = Sec
+WebAddress = http://hstest.mg-sci.com/wp-content/uploads/2019/06/2019_30th_hstest_rule.pdf
+DigitalModeSqlString =
+MultipleSessions =
+ResetMultsEverySession
