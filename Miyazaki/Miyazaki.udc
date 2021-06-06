@@ -1,0 +1,110 @@
+[Author]
+AuthorName= Seiichi tanaka 
+Callsign=JI1FLB
+Email=ji1flb at jarl.com
+
+[File]
+Revision = 1.0.0 
+LastUpdate = 2021/06/06 9:59
+Description = Miyazaki
+
+[Contest]
+Name = Miyazaki
+DisplayName = Miyazaki
+CabrilloName = Miyazaki-Contest
+Mode = BOTH
+DupeType = 2
+Multiplier1Name = Sect
+Multiplier2Name = 
+Multiplier3Name = 
+MultSqlString = Section
+MultSqlString2 = 
+MultSqlString3 = 
+Period = 1
+PointsPerContact = 
+PointsMultAtTimeLocal = 
+PointsMultAtTimeGMT = 
+PointsMultByMode = 
+PointsMultByContinent = 
+PointsMultByCountry = 
+PointsMultByCategory = 
+ShowMyCountryStations = True
+ShowWarcBands = False
+ZoneType = CQ
+
+MultWindowType = Miyazaki
+
+CQZoneMultContest = False
+NumMults = 1
+BonusPoints = 
+BonusPoints2 = 
+DoNotCountMeAsMult = 
+DoNotCountMeAsMult2
+DoNotCountMeAsMult3
+CountMultOnlyFor =
+CountMultOnlyFor2 =
+CountMultOnlyFor3 =
+DoNotCountMultOnlyFor =
+DoNotCountMultOnlyFor2 =
+DoNotCountMultOnlyFor3 =
+CountMultOnlyForSec =
+CountMultOnlyForSec2 =
+CountMultOnlyForSec3 =
+
+MultiplierBands = 2
+QsoErrorString = Sect
+
+EntryWindowInfo =SNTText, 350, RCVText, 350, Exchange1Text, 615 
+FrameText =SntNr  RcvNr  Exchange
+LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+
+DefaultContestExchange = 10
+
+IsWorkable = JA,JD/o,JD/m
+SpecialInstructions =
+DupeSqlString = 1
+
+StartOfContest = 
+EndOfContest =
+
+IsMultPer = 1
+IsMult1Per =
+IsMult2Per =
+IsMult3Per = 
+MinimumOffTime = 
+UsesWAECountries = False
+SetSentTimeForContact = False
+ScoreSummaryMultNames = Mul
+
+************** THIS PARAMETER IS CURRENTLY NOT WORKING ************************
+*WebAddress = 
+*  Web address for the contest rules 
+************************************************************************************
+
+CabrilloFormat = 99
+CabrilloString = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintString  = SNT, 4, SentExch, 8, CallSign, 13, RCV, 4, Exchange1, 8
+GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Call            RST  Rcvd 
+
+QsoNumbersByBand = 
+DigitalModeSqlString = False
+MultipleSessions = 
+ResetMultsEverySession =
+ResetSNEverySession = 
+CabrilloVersion = 2.0
+MultMult = 
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
+SingleOpCountableBandChange = False
+MultiOpCountableBandChange = False
+CountBandOrModeChange = False
+SOBandChangeCountMax = 
+MOBandChangeCountMax = 
+CountBandChangesPerContest = False
+CountBandChangesPerPeriod = False
+SOBandChangeTimerDuration =
+MOBandChangeTimerDuration =
+UsesLASTEXCHmacro = False
+DupeQSOMinutesAgo =
+PowerMult = 1
