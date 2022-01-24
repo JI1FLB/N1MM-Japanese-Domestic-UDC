@@ -9,9 +9,9 @@ LastUpdate = 18/10/18 17:45
 Description = TOKYO Contest TOKYO CW Contest TOKYO UHF Contest
 
 [Contest]
-Name = TOKYO TEST
-DisplayName = TOKYO Contest
-CabrilloName = TOKYO Contest
+Name = TOKYO
+DisplayName = TOKYO
+CabrilloName = TOKYO
 Mode = BOTH
 DupeType = 2
 Multiplier1Name = Sect

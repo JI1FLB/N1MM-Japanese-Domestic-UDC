@@ -1,18 +1,18 @@
 [Author]
-AuthorName= Seiichi Tanaka
-Callsign= JI1FLB
-Email= ji1flb at jarl.com
+AuthorName= Seiichi tanaka 
+Callsign=JI1FLB
+Email=ji1flb at jarl.com
 
 [File]
-Revision = 1.1.0 
-LastUpdate = 18/10/31 12:16
-Description = KCJ
+Revision = 1.0.0 
+LastUpdate = 2021/06/06 9:59
+Description = Miyazaki
 
 [Contest]
-Name = KCJ
-DisplayName = KCJ
-CabrilloName = KCJ
-Mode = CW
+Name = Miyazaki
+DisplayName = Miyazaki
+CabrilloName = Miyazaki-Contest
+Mode = BOTH
 DupeType = 2
 Multiplier1Name = Sect
 Multiplier2Name = 
@@ -20,8 +20,8 @@ Multiplier3Name =
 MultSqlString = Section
 MultSqlString2 = 
 MultSqlString3 = 
-Period = 2
-PointsPerContact = JA, 1, SectIs_MT, 1, SectIs_OG, 1, SameContinent, 5, OtherContinent, 5
+Period = 1
+PointsPerContact = 
 PointsMultAtTimeLocal = 
 PointsMultAtTimeGMT = 
 PointsMultByMode = 
@@ -32,15 +32,15 @@ ShowMyCountryStations = True
 ShowWarcBands = False
 ZoneType = CQ
 
-MultWindowType = KCJ
+MultWindowType = Miyazaki
 
 CQZoneMultContest = False
 NumMults = 1
 BonusPoints = 
 BonusPoints2 = 
-DoNotCountMeAsMult = False
-DoNotCountMeAsMult2 = 
-DoNotCountMeAsMult3 = 
+DoNotCountMeAsMult = 
+DoNotCountMeAsMult2
+DoNotCountMeAsMult3
 CountMultOnlyFor =
 CountMultOnlyFor2 =
 CountMultOnlyFor3 =
@@ -54,22 +54,22 @@ CountMultOnlyForSec3 =
 MultiplierBands = 2
 QsoErrorString = Sect
 
-EntryWindowInfo = SNTText, 350, RCVText, 350, Exchange1Text, 615 
-FrameText = SntNr  RcvNr  Exchange
-LogInfo = SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
+EntryWindowInfo =SNTText, 350, RCVText, 350, Exchange1Text, 615 
+FrameText =SntNr  RcvNr  Exchange
+LogInfo =SentReport, 400, ReceiveReport,400, Exchange1,500, IsMultiplier1, 500, Points, 500 ,Comment,200
 
-DefaultContestExchange = TY
+DefaultContestExchange = 10
 
-IsWorkable = Any
-SpecialInstructions = 
+IsWorkable = JA,JD/o,JD/m
+SpecialInstructions =
 DupeSqlString = 1
 
 StartOfContest = 
-EndOfContest = 
+EndOfContest =
 
 IsMultPer = 1
-IsMult1Per = 
-IsMult2Per = 
+IsMult1Per =
+IsMult2Per =
 IsMult3Per = 
 MinimumOffTime = 
 UsesWAECountries = False
@@ -89,13 +89,13 @@ GenericPrintStringHeader =Date     Time   Freq   Mode MyCall       RST  Snt  Cal
 QsoNumbersByBand = 
 DigitalModeSqlString = False
 MultipleSessions = 
-ResetMultsEverySession = 
+ResetMultsEverySession =
 ResetSNEverySession = 
 CabrilloVersion = 2.0
 MultMult = 
-MultMult2 = 
-MultMult3 = 
-BandChangesPerPeriod = 10000
+MultMult2 =
+MultMult3 =
+BandChangesPerPeriod = 10000 
 SingleOpCountableBandChange = False
 MultiOpCountableBandChange = False
 CountBandOrModeChange = False
@@ -103,8 +103,8 @@ SOBandChangeCountMax =
 MOBandChangeCountMax = 
 CountBandChangesPerContest = False
 CountBandChangesPerPeriod = False
-SOBandChangeTimerDuration = 
-MOBandChangeTimerDuration = 
+SOBandChangeTimerDuration =
+MOBandChangeTimerDuration =
 UsesLASTEXCHmacro = False
-DupeQSOMinutesAgo = 
+DupeQSOMinutesAgo =
 PowerMult = 1
