@@ -4,8 +4,8 @@ Callsign=JI1FLB
 Email=ji1flb at jarl.com
 
 [File]
-Revision = 1.1.0 
-LastUpdate = 18/10/25 11:10
+Revision = 1.2.0 
+LastUpdate = 2024/10/31 10:40
 Description = SAITAMA
 
 [Contest]
@@ -13,7 +13,7 @@ Name = SAITAMA
 DisplayName = SAITAMA
 CabrilloName = SAITAMA-Contest
 Mode = BOTH
-DupeType = 2
+DupeType = 3
 Multiplier1Name = Sect
 Multiplier2Name = 
 Multiplier3Name = 
@@ -21,7 +21,7 @@ MultSqlString = Section
 MultSqlString2 = 
 MultSqlString3 = 
 Period = 1
-PointsPerContact = SSB, 1, CW, 2, FM, 1, AM, 1
+PointsPerContact =  SectIs_101,1,SectIs_102,1,SectIs_103,1,SectIs_104,1,SectIs_105,1,SectIs_106,1,SectIs_107,1,SectIs_108,1,SectIs_109,1,SectIs_110,1,SectIs_111,1,SectIs_112,1,SectIs_113,1,SectIs_114,1,SectIs_02,1,SectIs_03,1,SectIs_04,1,SectIs_05,1,SectIs_06,1,SectIs_07,1,SectIs_08,1,SectIs_09,1,SectIs_10,1,SectIs_11,1,SectIs_12,1,SectIs_14,1,SectIs_15,1,SectIs_16,1,SectIs_17,1,SectIs_18,1,SectIs_19,1,SectIs_20,1,SectIs_21,1,SectIs_22,1,SectIs_23,1,SectIs_24,1,SectIs_25,1,SectIs_26,1,SectIs_27,1,SectIs_28,1,SectIs_29,1,SectIs_30,1,SectIs_31,1,SectIs_32,1,SectIs_33,1,SectIs_34,1,SectIs_35,1,SectIs_36,1,SectIs_37,1,SectIs_38,1,SectIs_39,1,SectIs_40,1,SectIs_41,1,SectIs_42,1,SectIs_43,1,SectIs_44,1,SectIs_45,1,SectIs_46,1,SectIs_47,1,SectIs_48,SSB, 2, CW, 3, FM, 2, AM, 2,RTTY 2
 PointsMultAtTimeLocal = 
 PointsMultAtTimeGMT = 
 PointsMultByMode = 
