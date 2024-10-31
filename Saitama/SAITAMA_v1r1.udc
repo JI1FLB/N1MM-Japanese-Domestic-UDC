@@ -4,8 +4,8 @@ Callsign=JI1FLB
 Email=ji1flb at jarl.com
 
 [File]
-Revision = 1.3.0 
-LastUpdate = 2024/10/31 16:10
+Revision = 1.1.0 
+LastUpdate = 18/10/25 11:10
 Description = SAITAMA
 
 [Contest]
@@ -13,7 +13,7 @@ Name = SAITAMA
 DisplayName = SAITAMA
 CabrilloName = SAITAMA-Contest
 Mode = BOTH
-DupeType = 3
+DupeType = 2
 Multiplier1Name = Sect
 Multiplier2Name = 
 Multiplier3Name = 
@@ -21,7 +21,7 @@ MultSqlString = Section
 MultSqlString2 = 
 MultSqlString3 = 
 Period = 1
-PointsPerContact =  SSB, 1, CW, 2, FM, 1, AM, 1
+PointsPerContact = SSB, 1, CW, 2, FM, 1, AM, 1
 PointsMultAtTimeLocal = 
 PointsMultAtTimeGMT = 
 PointsMultByMode = 
@@ -36,7 +36,7 @@ MultWindowType = SAITAMA
 
 CQZoneMultContest = False
 NumMults = 1
-BonusPoints = ExchIs_1302, +1,ExchIs_1303, +1,ExchIs_1304, +1,ExchIs_1306, +1,ExchIs_1307, +1,ExchIs_1308, +1,ExchIs_1309, +1,ExchIs_1310, +1,ExchIs_1311, +1,ExchIs_1312, +1,ExchIs_1314, +1,ExchIs_1315, +1,ExchIs_1316, +1,ExchIs_1317, +1,ExchIs_1318, +1,ExchIs_1319, +1,ExchIs_1321, +1,ExchIs_1322, +1,ExchIs_1323, +1,ExchIs_1324, +1,ExchIs_1325, +1,ExchIs_1327, +1,ExchIs_1328, +1,ExchIs_1329, +1,ExchIs_1330, +1,ExchIs_1331, +1,ExchIs_1332, +1,ExchIs_1333, +1,ExchIs_1334, +1,ExchIs_1336, +1,ExchIs_1337, +1,ExchIs_1338, +1,ExchIs_1339, +1,ExchIs_1340, +1,ExchIs_1341, +1,ExchIs_1342, +1,ExchIs_1343, +1,ExchIs_134401, +1,ExchIs_134402, +1,ExchIs_134403, +1,ExchIs_134404, +1,ExchIs_134405, +1,ExchIs_134406, +1,ExchIs_134407, +1,ExchIs_134408, +1,ExchIs_134409, +1,ExchIs_134410, +1,ExchIs_1345, +1,ExchIs_1346, +1,ExchIs_130012, +1,ExchIs_130014, +1,ExchIs_130015, +1,ExchIs_130026, +1,ExchIs_130031, +1,ExchIs_130043, +1,ExchIs_130044, +1,ExchIs_130062, +1,ExchIs_130063, +1,ExchIs_130064, +1,ExchIs_130072, +1,ExchIs_130073, +1,ExchIs_130074, +1,ExchIs_130075, +1,ExchIs_130079, +1,ExchIs_130081, +1,ExchIs_130082, +1,ExchIs_130084, +1,ExchIs_130085, +1,ExchIs_130086, +1,ExchIs_130087, +1,ExchIs_130089, +1,ExchIs_130093, +1
+BonusPoints = 
 BonusPoints2 = 
 DoNotCountMeAsMult = 
 DoNotCountMeAsMult2
